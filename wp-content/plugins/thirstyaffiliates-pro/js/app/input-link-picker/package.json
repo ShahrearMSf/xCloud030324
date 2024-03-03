@@ -1,0 +1,31 @@
+{
+  "name": "tap_event_notification",
+  "version": "1.0.0",
+  "description": "ThirstyAffiliates Prop Event Notification",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint dist"
+  },
+  "author": "Rymera Web",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.5",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.5.1",
+    "webpack-spritesmith": "^0.3.3"
+  },
+  "dependencies": {
+    "datatables.net": "^1.10.15",
+    "datatables.net-dt": "^1.10.15",
+    "vex-js": "^3.1.1"
+  }
+}

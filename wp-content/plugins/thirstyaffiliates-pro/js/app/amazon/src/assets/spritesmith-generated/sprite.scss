@@ -1,0 +1,123 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$import-link-active-name: 'import-link-active';
+$import-link-active-x: 0px;
+$import-link-active-y: 0px;
+$import-link-active-offset-x: 0px;
+$import-link-active-offset-y: 0px;
+$import-link-active-width: 15px;
+$import-link-active-height: 20px;
+$import-link-active-total-width: 45px;
+$import-link-active-total-height: 40px;
+$import-link-active-image: '~sprite.png';
+$import-link-active: (0px, 0px, 0px, 0px, 15px, 20px, 45px, 40px, '~sprite.png', 'import-link-active', );
+$import-link-name: 'import-link';
+$import-link-x: 15px;
+$import-link-y: 0px;
+$import-link-offset-x: -15px;
+$import-link-offset-y: 0px;
+$import-link-width: 15px;
+$import-link-height: 20px;
+$import-link-total-width: 45px;
+$import-link-total-height: 40px;
+$import-link-image: '~sprite.png';
+$import-link: (15px, 0px, -15px, 0px, 15px, 20px, 45px, 40px, '~sprite.png', 'import-link', );
+$quick-import-active-name: 'quick-import-active';
+$quick-import-active-x: 30px;
+$quick-import-active-y: 0px;
+$quick-import-active-offset-x: -30px;
+$quick-import-active-offset-y: 0px;
+$quick-import-active-width: 15px;
+$quick-import-active-height: 20px;
+$quick-import-active-total-width: 45px;
+$quick-import-active-total-height: 40px;
+$quick-import-active-image: '~sprite.png';
+$quick-import-active: (30px, 0px, -30px, 0px, 15px, 20px, 45px, 40px, '~sprite.png', 'quick-import-active', );
+$quick-import-name: 'quick-import';
+$quick-import-x: 0px;
+$quick-import-y: 20px;
+$quick-import-offset-x: 0px;
+$quick-import-offset-y: -20px;
+$quick-import-width: 15px;
+$quick-import-height: 20px;
+$quick-import-total-width: 45px;
+$quick-import-total-height: 40px;
+$quick-import-image: '~sprite.png';
+$quick-import: (0px, 20px, 0px, -20px, 15px, 20px, 45px, 40px, '~sprite.png', 'quick-import', );
+$spritesheet-width: 45px;
+$spritesheet-height: 40px;
+$spritesheet-image: '~sprite.png';
+$spritesheet-sprites: ($import-link-active, $import-link, $quick-import-active, $quick-import, );
+$spritesheet: (45px, 40px, '~sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

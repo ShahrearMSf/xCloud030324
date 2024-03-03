@@ -1,0 +1,4 @@
+Name,Destination URL,Slug,Categories (separated by semicolons),Images To Download & Attach (separated by semicolons; jpg/png/gif only),Geolocations Links (format: AU:http://google.com.au separated by semicolon),Autolinker Keywords (separated by semicolon)
+This is the name of my link,http://google.com,testlink,Test Category;New Category,http://d3.static.dvidshub.net/media/thumbs/photos/1210/692947/429x450_q75.jpg;http://d3.static.dvidshub.net/media/thumbs/photos/1210/761342/450x450_q75.jpg,AU:http://google.com.au;GB:http://google.co.uk,Keyword;Another Keyword;A third keyword
+This is a second link,http://bing.com,secondlink,Another New Category,,AU:http://bing.com.au;GB:http://bing.co.uk,Bing;Other search engines
+This is link number 3,http://google.com.au,linknumber3,Test Category,http://d3.static.dvidshub.net/media/thumbs/photos/1302/857738/450x450_q75.jpg,US:http://google.com;GB:http://google.co.uk,Fake Keyword;Another Keyword;A third keyword

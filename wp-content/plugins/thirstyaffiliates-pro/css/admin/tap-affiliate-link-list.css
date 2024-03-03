@@ -1,0 +1,64 @@
+.link_health_status .tooltip {
+    cursor: default;
+    font-size: 11px;
+    background: #e4e4e4;
+    padding: 2px 8px 4px;
+    border-radius: 5px;
+    border:1px solid #ddd;
+}
+.link_health_status .active,
+.link_health_status .ignored {
+    background:#3a9a43;
+    color: #fff;
+    border-color: #237b2b;
+}
+.link_health_status .inactive,
+.link_health_status .error {
+    background: #c72323;
+    color: #fff;
+    border-color: #a71919;
+}
+.link_health_status .warning {
+    background:#efb811;
+    color: #fff;
+    border-color: #d89e11;
+}
+.tap-spinner {
+    position: relative;
+    display: inline-block;
+    background-image: url(../../images/spinner.gif);
+    width: 20px;
+    height: 20px;
+}
+.wp-list-table .column-shortened_url {
+    width: 110px;
+}
+.wp-list-table .column-link_id {
+    width: 70px;
+}
+.wp-list-table .column-redirect_type {
+    width: 70px;
+}
+.wp-list-table .column-stats_summary {
+    width: 100px;
+}
+.wp-list-table .column-link_health_status {
+    width: 60px;
+}
+.wp-list-table .column-cloaked_url,
+.wp-list-table .column-link_destination {
+    width: 150px;
+}
+.column-shortened_url input[type="text"] {
+    width: 100%;
+}
+.column-shortened_url .tap-spinner {
+    display: none;
+    position: relative;
+    top: 5px;
+    margin-left: 4px;
+}
+.column-stats_summary .stats-summary-wrap span {
+    display: block;
+    font-size: 11px;
+}

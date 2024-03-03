@@ -1,0 +1,155 @@
+tr td.forminp-radio input[type="radio"] {
+    float: left;
+    margin-top: 3px;
+}
+tr td.forminp-radio label {
+    display: block;
+    margin-left:25px;
+    line-height: 1.5em !important;
+}
+.record-all-links-field:after,
+.fix-all-links-field:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.record-all-links-field button,
+.fix-all-links-field button {
+    float: left;
+}
+.record-all-links-field .loading-message,
+.record-all-links-field .success-message,
+.fix-all-links-field .loading-message,
+.fix-all-links-field .success-message {
+    float: left;
+    margin-top: 0;
+    margin-left: 15px;
+    width: calc(100% - 145px);
+}
+
+.record-all-links-field .success-message .success,
+.fix-all-links-field .success-message {
+    color: #007b00;
+}
+.record-all-links-field .success-message .fail {
+    color: #dc3232;
+}
+.record-all-links-field .success-message .exist {
+    color: #0073aa;
+}
+.record-all-links-field .loading-message .htaccess-spinner,
+.fix-all-links-field .loading-message .htaccess-spinner {
+    float: left;
+    margin-right: 10px;
+}
+.vex.vex-theme-plain.vex-debug-log {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.vex-theme-plain.vex-debug-log .vex-content {
+    background: url( ../../images/spinner-2x.gif ) center center no-repeat #fff !important;
+    width: 900px !important;
+    color: transparent;
+    height: 500px !important;
+}
+.vex-theme-plain.vex-debug-log .vex-content.show {
+    background: #fff !important;
+    color: #444;
+}
+.vex-theme-plain.vex-debug-log .log-wrap {
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+}
+.vex-theme-plain.vex-debug-log .log-wrap pre {
+    margin: 0;
+}
+tr.tap_trigger_link_health_checker-row td span.still-running,
+tr.tap_trigger_link_health_checker-row td span.success-msg {
+    font-weight: bold;
+    color: #148c1e;
+}
+tr.highlight-row th,
+tr.highlight-row td {
+    background: #d4e3eb;
+    box-shadow: 0 0 0 10px #d5e3ec;
+}
+.tap_plugin_visibility_menu_items-row th .description {
+    font-weight: normal;
+}
+ul.menu-item-visibility-setting {
+    background: #fff;
+    border: 1px solid #eee;
+    margin: 0;
+}
+ul.menu-item-visibility-setting li {
+    padding: 10px 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+    clear: both;
+}
+ul.menu-item-visibility-setting li.save-row {
+    padding: 8px 20px 8px;
+}
+ul.menu-item-visibility-setting li:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+ul.menu-item-visibility-setting li .label {
+    float: left;
+    width: 170px;
+    margin-top: 8px;
+}
+ul.menu-item-visibility-setting li .option {
+    float: left;
+    width: calc( 100% - 170px );
+}
+ul.menu-item-visibility-setting li .option select,
+ul.menu-item-visibility-setting li .option input {
+    width: 100%;
+}
+ul.menu-item-visibility-setting li .option.form-error select,
+ul.menu-item-visibility-setting li .option.form-error .selectize-input,
+ul.menu-item-visibility-setting li .option.form-error .custom-capability {
+    outline: 1px solid #C00;
+}
+ul.menu-item-visibility-setting li .option input.custom-capability {
+    display: none;
+    width: 100%;
+    padding: 8px 10px;
+}
+ul.menu-item-visibility-setting li.save-row .button-primary {
+    float: left;
+    margin-right: 10px;
+}
+ul.menu-item-visibility-setting li.save-row span.processing {
+    display: none;
+    margin-top: 5px;
+    color: #888;
+    font-style: italic;
+}
+ul.menu-item-visibility-setting li.save-row span.processing img {
+    float: left;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+ul.menu-item-visibility-setting li.save-row p.success-msg {
+    float: left;
+    color: #1B5E20;
+}
+tr.tap_plugin_visibility_setting_interfaces-row td {
+    padding-bottom: 100px !important;
+}
+#tap-license-activated-notice {
+    display: inline-block;
+}
+#tap-license-deactivate {
+    margin-top: 20px;
+}
+#tap-install-license-edition-loading {
+    display: none;
+    margin-left: 10px;
+}

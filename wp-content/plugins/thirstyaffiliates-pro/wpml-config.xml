@@ -1,0 +1,5 @@
+<wpml-config>
+    <taxonomies>
+        <taxonomy translate="0">tap-event-notification</taxonomy>
+    </taxonomies>
+</wpml-config>

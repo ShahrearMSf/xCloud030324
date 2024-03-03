@@ -1,0 +1,61 @@
+span.tap-disclosure-notice-icon {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+
+    .dashicons,
+    .dashicons:before {
+        width: 14px;
+        height: 14px;
+        font-size: 14px;
+    }
+}
+.tap-disclosure-notice-tooltip {
+    display: none;
+    position: absolute;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    opacity: 1;
+    z-index: 2000;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: calc(50% - 12px);
+        display: inline-block;
+        width:1px;
+        height:1px;
+        border-top: 10px solid rgba(0, 0, 0, 0.7);
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid transparent;
+    }
+
+    &.show {
+        display: block;
+    }
+
+    &.fade {
+        opacity: 0;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: underline;
+
+        &:hover {
+            color: #ccecd8;
+        }
+    }
+}
+.tap_disclosure_notice_bottom_post {
+    clear: both;
+    margin-top: 20px;
+}

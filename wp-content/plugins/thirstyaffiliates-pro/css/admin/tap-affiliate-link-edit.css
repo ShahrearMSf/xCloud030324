@@ -1,0 +1,274 @@
+#tap-geolocation-urls-metabox .add-geo-link-button {
+    margin-bottom: 10px;
+}
+/*#tap-geolocation-urls-metabox .add-geo-link-form {
+    display: none;
+    padding: 10px 15px 5px 15px;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}*/
+#tap-geolocation-urls-metabox .add-geo-link-form h4 {
+    margin: 0 0 10px;
+}
+
+.tap-spinner {
+    position: relative;
+    display: inline-block;
+    background-image: url(../../images/spinner.gif);
+    width: 20px;
+    height: 20px;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table {
+    width: 100%;
+    border: 1px solid #dadada;
+    border-collapse: collapse;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table thead th:nth-child(3),
+#tap-geolocation-urls-metabox table.tap-geo-links-table tbody td:nth-child(3) {
+    width: 100px;
+    text-align: right;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table thead th,
+#tap-geolocation-urls-metabox table.tap-geo-links-table tbody td {
+    border-bottom: 1px solid #dadada;
+    padding: 5px 10px;
+    margin: 0;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table tr .actions a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table tr .actions a.link {
+    color: #0085ba;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table tr .actions a.remove {
+    color: #c0392b;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table tr .actions a:hover {
+    opacity: 0.7;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table tr.new td {
+    background: #ffe685;
+}
+#tap-geolocation-urls-metabox table.tap-geo-links-table tr.edit td {
+    background: #cde1ef;
+}
+#tap-geolocation-urls-metabox .add-geo-link-form {
+    margin-bottom: 15px;
+}
+#tap-geolocation-urls-metabox .add-geo-link-form:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#tap-geolocation-urls-metabox .add-geo-link-form .field-wrap {
+    float: left;
+}
+#tap-geolocation-urls-metabox .add-geo-link-form .field-wrap select,
+#tap-geolocation-urls-metabox .add-geo-link-form .field-wrap input {
+    width: 100%;
+}
+#tap-geolocation-urls-metabox .add-geo-link-form .field-wrap.select-countries {
+    width: 30%;
+    margin-right: 1%;
+}
+#tap-geolocation-urls-metabox .add-geo-link-form .field-wrap.destination-input {
+    width: 48%;
+    margin-right: 1%;
+}
+#tap-geolocation-urls-metabox .add-geo-link-form .field-wrap.destination-input input {
+    padding: 5px;
+}
+#tap-geolocation-urls-metabox .add-geo-link-form .field-wrap.geolink-button .tap-spinner {
+    top: 5px;
+    float: right;
+    margin-left: 5px;
+}
+#tap-geolocation-urls-metabox #cancel-update-geolink {
+    font-size: 11px;
+}
+#tap-event-notification-add-toggle {
+    display: none;
+}
+.shortened-url-field .info-label {
+    display: block;
+}
+.shortened-url-field .button-wrap {
+    display: inline-block;
+    position: relative;
+    top: -6px;
+}
+.shortened-url-field .button-wrap span {
+    display: none;
+}
+.shortened-url-field .button-wrap .tap-spinner {
+    position: relative;
+    top: 4px;
+}
+.shortened-url-field .button-wrap .success-msg {
+    color: #005a00;
+    font-weight: bold;
+}
+.shortened-url-field .cloaked-url-change-warning {
+    display: none;
+    background: #fff;
+    border-top: 1px solid #f9f9f9;
+    border-left: 3px solid #ffb901;
+    padding: 8px 10px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+#tap-link-scheduler-metabox .inside:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+#tap-link-scheduler-metabox .date-field {
+    position: relative;
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+#tap-link-scheduler-metabox .date-field .range_datepicker {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+}
+#tap-link-scheduler-metabox .date-field .dashicons {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    right: 5px;
+    color: #ababab;
+}
+#tap-link-scheduler-metabox .url-field {
+    float: left;
+    width: calc( 100% - 165px );
+}
+#tap-link-scheduler-metabox p {
+    margin-bottom: 0;
+}
+#tap-link-health-metabox-side:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+#tap-link-health-metabox-side .tooltip {
+    cursor: default;
+    font-size: 11px;
+    background: #e4e4e4;
+    padding: 2px 8px 4px;
+    border-radius: 5px;
+    border:1px solid #ddd;
+}
+#tap-link-health-metabox-side .active,
+#tap-link-health-metabox-side .ignored {
+    background:#3a9a43;
+    color: #fff;
+    border-color: #237b2b;
+}
+#tap-link-health-metabox-side .inactive,
+#tap-link-health-metabox-side .error {
+    background: #c72323;
+    color: #fff;
+    border-color: #a71919;
+}
+#tap-link-health-metabox-side .warning {
+    background:#efb811;
+    color: #fff;
+    border-color: #d89e11;
+}
+#tap-link-health-metabox-side #trigger-manual-health-check {
+    font-size: 11px;
+    padding: 2px 5px;
+    line-height: 15px;
+    height: auto;
+    float: right;
+}
+#tap-preset-click-data-parameters-metabox .add-preset-click-data-form {
+    margin: 0 -10px 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dadada;
+}
+#tap-preset-click-data-parameters-metabox .add-preset-click-data-form:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#tap-preset-click-data-parameters-metabox .add-preset-click-data-form .form-input {
+    float: left;
+    width: 26%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+#tap-preset-click-data-parameters-metabox .add-preset-click-data-form .form-input input {
+    width: 100%;
+}
+#tap-preset-click-data-parameters-metabox .add-preset-click-data-form .form-submit {
+    width: 22%;
+    margin-top: 18px;
+}
+#tap-preset-click-data-parameters-metabox .inside {
+    position: relative;
+}
+#tap-preset-click-data-parameters-metabox .overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+}
+#tap-preset-click-data-parameters-metabox .overlay img {
+    width: 40px;
+    height: 40px;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table {
+    width: 100%;
+    border: 1px solid #dadada;
+    border-collapse: collapse
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table th,
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table td {
+    border-bottom: 1px solid #dadada;
+    padding: 5px 10px;
+    margin: 0
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table .qcode {
+    width: 40%;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table .qcode input {
+    width: 100%;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table .actions {
+    text-align: right;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table .actions a {
+    text-decoration: none;
+    color: #0073aa;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table .actions a.remove {
+    color: #c80b00;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table .actions a:hover {
+    opacity: 0.7;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table tr.editing td {
+    background: #fdffed;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table tr.editing .actions > * {
+    display: none;
+}
+#tap-preset-click-data-parameters-metabox .preset-click-data-table table tr.no-result td {
+    text-align: center;
+    font-style: italic;
+}

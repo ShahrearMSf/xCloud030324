@@ -1,0 +1,3747 @@
+# Copyright (C) 2022 Caseproof
+# This file is distributed under the same license as the ThirstyAffiliates Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: ThirstyAffiliates Pro 1.7.14\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/thirstyaffiliates-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-05-16T10:15:21-06:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: thirstyaffiliates-pro\n"
+
+#. Plugin Name of the plugin
+msgid "ThirstyAffiliates Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://thirstyaffiliates.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "The high powered add-on to the free ThirstyAffiliates plugin that will turbo charge your affiliate marketing."
+msgstr ""
+
+#. Author of the plugin
+msgid "Caseproof"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://caseproof.com/"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:465
+msgid "Not yet checked."
+msgstr ""
+
+#: Helpers/Helper_Functions.php:470
+msgid "Last checked on %s."
+msgstr ""
+
+#: Helpers/Helper_Functions.php:474
+msgid "Last checked unknown."
+msgstr ""
+
+#: Helpers/Helper_Functions.php:478
+#: Models/Link_Health_Checker.php:556
+#: Models/Link_Health_Checker.php:583
+msgid "waiting"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:479
+#: Helpers/Helper_Functions.php:483
+#: Models/Link_Health_Checker.php:557
+#: Models/Link_Health_Checker.php:584
+msgid "okay"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:480
+#: Helpers/Helper_Functions.php:482
+#: Models/Link_Health_Checker.php:558
+#: Models/Link_Health_Checker.php:560
+#: Models/Link_Health_Checker.php:585
+#: Models/Link_Health_Checker.php:587
+#: views/link-health-checker/link-health-report.php:20
+msgid "error"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:481
+#: Models/Link_Health_Checker.php:559
+#: Models/Link_Health_Checker.php:586
+#: views/link-health-checker/link-health-report.php:19
+msgid "warning"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:612
+msgid "Choose an option"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:739
+msgid "You had an HTTP error connecting to Caseproof's Mothership API"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:748
+msgid "Your License Key was invalid"
+msgstr ""
+
+#: Helpers/Helper_Functions.php:806
+msgid "Error fetching license data. Please use the license key displayed at https://thirstyaffiliates.com/account or contact support."
+msgstr ""
+
+#: Helpers/Helper_Functions.php:889
+msgid "Failed to get filesystem access"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:171
+msgid "United States"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:172
+msgid "Canada"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:173
+msgid "United Kingdom"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:174
+msgid "Australia"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:175
+msgid "Brazil"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:176
+msgid "France"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:177
+msgid "Germany"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:178
+msgid "India"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:179
+msgid "Italy"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:180
+msgid "Japan"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:181
+msgid "Mexico"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:182
+msgid "Netherlands"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:183
+msgid "Poland"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:184
+msgid "Saudi Arabia"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:185
+msgid "Singapore"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:186
+msgid "Spain"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:187
+msgid "Sweden"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:188
+msgid "Turkey"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:189
+msgid "United Arab Emirates"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:199
+#: Helpers/Plugin_Constants.php:226
+#: Helpers/Plugin_Constants.php:238
+#: Helpers/Plugin_Constants.php:275
+#: Helpers/Plugin_Constants.php:316
+#: Helpers/Plugin_Constants.php:361
+#: Helpers/Plugin_Constants.php:399
+#: Helpers/Plugin_Constants.php:438
+#: Helpers/Plugin_Constants.php:480
+#: Helpers/Plugin_Constants.php:510
+#: Helpers/Plugin_Constants.php:537
+#: Helpers/Plugin_Constants.php:562
+#: Helpers/Plugin_Constants.php:591
+#: Helpers/Plugin_Constants.php:608
+#: Helpers/Plugin_Constants.php:648
+#: Helpers/Plugin_Constants.php:668
+#: Helpers/Plugin_Constants.php:683
+#: Helpers/Plugin_Constants.php:710
+#: Helpers/Plugin_Constants.php:752
+msgid "-- All Departments --"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:200
+#: Helpers/Plugin_Constants.php:240
+msgid "Automotive"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:201
+#: Helpers/Plugin_Constants.php:241
+#: Helpers/Plugin_Constants.php:279
+#: Helpers/Plugin_Constants.php:321
+#: Helpers/Plugin_Constants.php:365
+#: Helpers/Plugin_Constants.php:403
+#: Helpers/Plugin_Constants.php:443
+#: Helpers/Plugin_Constants.php:482
+#: Helpers/Plugin_Constants.php:512
+#: Helpers/Plugin_Constants.php:540
+#: Helpers/Plugin_Constants.php:565
+#: Helpers/Plugin_Constants.php:593
+#: Helpers/Plugin_Constants.php:612
+#: Helpers/Plugin_Constants.php:650
+#: Helpers/Plugin_Constants.php:669
+#: Helpers/Plugin_Constants.php:687
+#: Helpers/Plugin_Constants.php:715
+#: Helpers/Plugin_Constants.php:758
+msgid "Baby"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:202
+#: Helpers/Plugin_Constants.php:242
+#: Helpers/Plugin_Constants.php:280
+#: Helpers/Plugin_Constants.php:322
+#: Helpers/Plugin_Constants.php:366
+#: Helpers/Plugin_Constants.php:404
+#: Helpers/Plugin_Constants.php:444
+#: Helpers/Plugin_Constants.php:513
+#: Helpers/Plugin_Constants.php:541
+#: Helpers/Plugin_Constants.php:566
+#: Helpers/Plugin_Constants.php:594
+#: Helpers/Plugin_Constants.php:613
+#: Helpers/Plugin_Constants.php:651
+#: Helpers/Plugin_Constants.php:688
+#: Helpers/Plugin_Constants.php:759
+msgid "Beauty & Personal Care"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:203
+#: Helpers/Plugin_Constants.php:227
+#: Helpers/Plugin_Constants.php:243
+#: Helpers/Plugin_Constants.php:281
+#: Helpers/Plugin_Constants.php:323
+#: Helpers/Plugin_Constants.php:367
+#: Helpers/Plugin_Constants.php:405
+#: Helpers/Plugin_Constants.php:445
+#: Helpers/Plugin_Constants.php:483
+#: Helpers/Plugin_Constants.php:514
+#: Helpers/Plugin_Constants.php:542
+#: Helpers/Plugin_Constants.php:567
+#: Helpers/Plugin_Constants.php:614
+#: Helpers/Plugin_Constants.php:652
+#: Helpers/Plugin_Constants.php:670
+#: Helpers/Plugin_Constants.php:689
+#: Helpers/Plugin_Constants.php:717
+#: Helpers/Plugin_Constants.php:760
+msgid "Books"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:204
+#: Helpers/Plugin_Constants.php:228
+#: Helpers/Plugin_Constants.php:282
+#: Helpers/Plugin_Constants.php:325
+#: Helpers/Plugin_Constants.php:369
+#: Helpers/Plugin_Constants.php:406
+#: Helpers/Plugin_Constants.php:447
+#: Helpers/Plugin_Constants.php:568
+#: Helpers/Plugin_Constants.php:595
+#: Helpers/Plugin_Constants.php:615
+#: Helpers/Plugin_Constants.php:671
+#: Helpers/Plugin_Constants.php:690
+#: Helpers/Plugin_Constants.php:763
+msgid "Computers"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:205
+#: Helpers/Plugin_Constants.php:229
+#: Helpers/Plugin_Constants.php:245
+#: Helpers/Plugin_Constants.php:284
+#: Helpers/Plugin_Constants.php:327
+#: Helpers/Plugin_Constants.php:370
+#: Helpers/Plugin_Constants.php:408
+#: Helpers/Plugin_Constants.php:450
+#: Helpers/Plugin_Constants.php:484
+#: Helpers/Plugin_Constants.php:515
+#: Helpers/Plugin_Constants.php:543
+#: Helpers/Plugin_Constants.php:569
+#: Helpers/Plugin_Constants.php:596
+#: Helpers/Plugin_Constants.php:617
+#: Helpers/Plugin_Constants.php:653
+#: Helpers/Plugin_Constants.php:672
+#: Helpers/Plugin_Constants.php:691
+#: Helpers/Plugin_Constants.php:766
+msgid "Electronics"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:206
+#: Helpers/Plugin_Constants.php:246
+#: Helpers/Plugin_Constants.php:285
+#: Helpers/Plugin_Constants.php:328
+#: Helpers/Plugin_Constants.php:371
+#: Helpers/Plugin_Constants.php:409
+#: Helpers/Plugin_Constants.php:451
+#: Helpers/Plugin_Constants.php:516
+#: Helpers/Plugin_Constants.php:578
+#: Helpers/Plugin_Constants.php:618
+#: Helpers/Plugin_Constants.php:673
+#: Helpers/Plugin_Constants.php:692
+#: Helpers/Plugin_Constants.php:722
+#: Helpers/Plugin_Constants.php:767
+msgid "Everything Else"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:207
+msgid "Clothing & Shoes"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:208
+#: Helpers/Plugin_Constants.php:249
+#: Helpers/Plugin_Constants.php:289
+#: Helpers/Plugin_Constants.php:332
+#: Helpers/Plugin_Constants.php:375
+#: Helpers/Plugin_Constants.php:413
+#: Helpers/Plugin_Constants.php:457
+#: Helpers/Plugin_Constants.php:519
+#: Helpers/Plugin_Constants.php:546
+#: Helpers/Plugin_Constants.php:572
+#: Helpers/Plugin_Constants.php:622
+#: Helpers/Plugin_Constants.php:725
+#: Helpers/Plugin_Constants.php:775
+msgid "Gift Cards"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:209
+msgid "Health, Household & Personal Care"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:210
+#: Helpers/Plugin_Constants.php:230
+#: Helpers/Plugin_Constants.php:253
+#: Helpers/Plugin_Constants.php:293
+#: Helpers/Plugin_Constants.php:336
+#: Helpers/Plugin_Constants.php:378
+#: Helpers/Plugin_Constants.php:417
+#: Helpers/Plugin_Constants.php:461
+#: Helpers/Plugin_Constants.php:494
+#: Helpers/Plugin_Constants.php:522
+#: Helpers/Plugin_Constants.php:548
+#: Helpers/Plugin_Constants.php:575
+#: Helpers/Plugin_Constants.php:599
+#: Helpers/Plugin_Constants.php:626
+#: Helpers/Plugin_Constants.php:657
+#: Helpers/Plugin_Constants.php:675
+#: Helpers/Plugin_Constants.php:697
+#: Helpers/Plugin_Constants.php:729
+#: Helpers/Plugin_Constants.php:779
+msgid "Home & Kitchen"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:211
+#: Helpers/Plugin_Constants.php:231
+#: Helpers/Plugin_Constants.php:256
+#: Helpers/Plugin_Constants.php:296
+#: Helpers/Plugin_Constants.php:339
+#: Helpers/Plugin_Constants.php:381
+#: Helpers/Plugin_Constants.php:420
+#: Helpers/Plugin_Constants.php:464
+#: Helpers/Plugin_Constants.php:496
+#: Helpers/Plugin_Constants.php:524
+#: Helpers/Plugin_Constants.php:577
+#: Helpers/Plugin_Constants.php:629
+#: Helpers/Plugin_Constants.php:732
+#: Helpers/Plugin_Constants.php:782
+msgid "Kindle Store"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:212
+#: Helpers/Plugin_Constants.php:297
+#: Helpers/Plugin_Constants.php:340
+#: Helpers/Plugin_Constants.php:421
+#: Helpers/Plugin_Constants.php:630
+#: Helpers/Plugin_Constants.php:699
+#: Helpers/Plugin_Constants.php:733
+msgid "Lighting"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:213
+#: Helpers/Plugin_Constants.php:298
+#: Helpers/Plugin_Constants.php:341
+#: Helpers/Plugin_Constants.php:382
+#: Helpers/Plugin_Constants.php:422
+#: Helpers/Plugin_Constants.php:631
+#: Helpers/Plugin_Constants.php:784
+msgid "Luggage & Travel Gear"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:214
+#: Helpers/Plugin_Constants.php:232
+#: Helpers/Plugin_Constants.php:259
+#: Helpers/Plugin_Constants.php:300
+#: Helpers/Plugin_Constants.php:344
+#: Helpers/Plugin_Constants.php:384
+#: Helpers/Plugin_Constants.php:423
+#: Helpers/Plugin_Constants.php:465
+#: Helpers/Plugin_Constants.php:632
+#: Helpers/Plugin_Constants.php:736
+#: Helpers/Plugin_Constants.php:788
+msgid "Apps & Games"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:215
+#: Helpers/Plugin_Constants.php:260
+#: Helpers/Plugin_Constants.php:301
+#: Helpers/Plugin_Constants.php:345
+#: Helpers/Plugin_Constants.php:385
+#: Helpers/Plugin_Constants.php:424
+#: Helpers/Plugin_Constants.php:466
+#: Helpers/Plugin_Constants.php:497
+#: Helpers/Plugin_Constants.php:525
+#: Helpers/Plugin_Constants.php:550
+#: Helpers/Plugin_Constants.php:579
+#: Helpers/Plugin_Constants.php:633
+#: Helpers/Plugin_Constants.php:658
+#: Helpers/Plugin_Constants.php:789
+msgid "Movies & TV"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:216
+#: Helpers/Plugin_Constants.php:302
+#: Helpers/Plugin_Constants.php:346
+#: Helpers/Plugin_Constants.php:386
+#: Helpers/Plugin_Constants.php:425
+#: Helpers/Plugin_Constants.php:467
+#: Helpers/Plugin_Constants.php:498
+#: Helpers/Plugin_Constants.php:526
+#: Helpers/Plugin_Constants.php:551
+#: Helpers/Plugin_Constants.php:580
+#: Helpers/Plugin_Constants.php:634
+#: Helpers/Plugin_Constants.php:659
+#: Helpers/Plugin_Constants.php:738
+#: Helpers/Plugin_Constants.php:790
+msgid "CDs & Vinyl"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:217
+#: Helpers/Plugin_Constants.php:233
+msgid "Stationery & Office Products"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:218
+#: Helpers/Plugin_Constants.php:264
+#: Helpers/Plugin_Constants.php:305
+#: Helpers/Plugin_Constants.php:349
+#: Helpers/Plugin_Constants.php:389
+#: Helpers/Plugin_Constants.php:428
+#: Helpers/Plugin_Constants.php:470
+#: Helpers/Plugin_Constants.php:501
+#: Helpers/Plugin_Constants.php:529
+#: Helpers/Plugin_Constants.php:554
+#: Helpers/Plugin_Constants.php:583
+#: Helpers/Plugin_Constants.php:601
+#: Helpers/Plugin_Constants.php:637
+#: Helpers/Plugin_Constants.php:661
+#: Helpers/Plugin_Constants.php:702
+#: Helpers/Plugin_Constants.php:741
+#: Helpers/Plugin_Constants.php:793
+msgid "Pet Supplies"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:219
+#: Helpers/Plugin_Constants.php:266
+#: Helpers/Plugin_Constants.php:307
+#: Helpers/Plugin_Constants.php:352
+#: Helpers/Plugin_Constants.php:391
+#: Helpers/Plugin_Constants.php:430
+#: Helpers/Plugin_Constants.php:472
+#: Helpers/Plugin_Constants.php:502
+#: Helpers/Plugin_Constants.php:530
+#: Helpers/Plugin_Constants.php:555
+#: Helpers/Plugin_Constants.php:584
+#: Helpers/Plugin_Constants.php:639
+#: Helpers/Plugin_Constants.php:703
+#: Helpers/Plugin_Constants.php:743
+#: Helpers/Plugin_Constants.php:796
+msgid "Software"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:220
+msgid "Sports, Fitness & Outdoors"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:221
+#: Helpers/Plugin_Constants.php:234
+msgid "Home Improvement"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:222
+#: Helpers/Plugin_Constants.php:269
+#: Helpers/Plugin_Constants.php:310
+#: Helpers/Plugin_Constants.php:355
+#: Helpers/Plugin_Constants.php:394
+#: Helpers/Plugin_Constants.php:433
+#: Helpers/Plugin_Constants.php:505
+#: Helpers/Plugin_Constants.php:533
+#: Helpers/Plugin_Constants.php:558
+#: Helpers/Plugin_Constants.php:587
+#: Helpers/Plugin_Constants.php:604
+#: Helpers/Plugin_Constants.php:642
+#: Helpers/Plugin_Constants.php:664
+#: Helpers/Plugin_Constants.php:679
+#: Helpers/Plugin_Constants.php:706
+#: Helpers/Plugin_Constants.php:746
+#: Helpers/Plugin_Constants.php:799
+msgid "Toys & Games"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:223
+#: Helpers/Plugin_Constants.php:235
+#: Helpers/Plugin_Constants.php:271
+#: Helpers/Plugin_Constants.php:312
+#: Helpers/Plugin_Constants.php:357
+#: Helpers/Plugin_Constants.php:395
+#: Helpers/Plugin_Constants.php:434
+#: Helpers/Plugin_Constants.php:476
+#: Helpers/Plugin_Constants.php:506
+#: Helpers/Plugin_Constants.php:534
+#: Helpers/Plugin_Constants.php:559
+#: Helpers/Plugin_Constants.php:588
+#: Helpers/Plugin_Constants.php:605
+#: Helpers/Plugin_Constants.php:644
+#: Helpers/Plugin_Constants.php:665
+#: Helpers/Plugin_Constants.php:680
+#: Helpers/Plugin_Constants.php:707
+#: Helpers/Plugin_Constants.php:801
+msgid "Video Games"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:239
+#: Helpers/Plugin_Constants.php:276
+#: Helpers/Plugin_Constants.php:318
+#: Helpers/Plugin_Constants.php:362
+#: Helpers/Plugin_Constants.php:400
+#: Helpers/Plugin_Constants.php:440
+#: Helpers/Plugin_Constants.php:754
+msgid "Clothing & Accessories"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:244
+#: Helpers/Plugin_Constants.php:718
+msgid "Classical Music"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:247
+msgid "English Books"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:248
+msgid "Patio, Lawn & Garden"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:250
+#: Helpers/Plugin_Constants.php:290
+#: Helpers/Plugin_Constants.php:333
+#: Helpers/Plugin_Constants.php:376
+#: Helpers/Plugin_Constants.php:414
+#: Helpers/Plugin_Constants.php:458
+#: Helpers/Plugin_Constants.php:491
+#: Helpers/Plugin_Constants.php:520
+#: Helpers/Plugin_Constants.php:573
+#: Helpers/Plugin_Constants.php:597
+#: Helpers/Plugin_Constants.php:623
+#: Helpers/Plugin_Constants.php:655
+#: Helpers/Plugin_Constants.php:695
+#: Helpers/Plugin_Constants.php:776
+msgid "Grocery & Gourmet Food"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:251
+#: Helpers/Plugin_Constants.php:291
+#: Helpers/Plugin_Constants.php:334
+#: Helpers/Plugin_Constants.php:415
+#: Helpers/Plugin_Constants.php:492
+#: Helpers/Plugin_Constants.php:624
+#: Helpers/Plugin_Constants.php:727
+#: Helpers/Plugin_Constants.php:777
+msgid "Handmade"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:252
+#: Helpers/Plugin_Constants.php:728
+msgid "Health & Personal Care"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:254
+#: Helpers/Plugin_Constants.php:294
+#: Helpers/Plugin_Constants.php:337
+#: Helpers/Plugin_Constants.php:379
+#: Helpers/Plugin_Constants.php:418
+#: Helpers/Plugin_Constants.php:462
+#: Helpers/Plugin_Constants.php:495
+#: Helpers/Plugin_Constants.php:523
+#: Helpers/Plugin_Constants.php:549
+#: Helpers/Plugin_Constants.php:576
+#: Helpers/Plugin_Constants.php:627
+#: Helpers/Plugin_Constants.php:698
+#: Helpers/Plugin_Constants.php:730
+#: Helpers/Plugin_Constants.php:780
+msgid "Industrial & Scientific"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:255
+#: Helpers/Plugin_Constants.php:295
+#: Helpers/Plugin_Constants.php:338
+#: Helpers/Plugin_Constants.php:380
+#: Helpers/Plugin_Constants.php:419
+#: Helpers/Plugin_Constants.php:463
+#: Helpers/Plugin_Constants.php:628
+#: Helpers/Plugin_Constants.php:781
+msgid "Jewelry"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:257
+msgid "Luggage & Bags"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:258
+#: Helpers/Plugin_Constants.php:299
+#: Helpers/Plugin_Constants.php:342
+#: Helpers/Plugin_Constants.php:383
+#: Helpers/Plugin_Constants.php:735
+#: Helpers/Plugin_Constants.php:785
+msgid "Luxury Beauty"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:261
+msgid "Music"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:262
+msgid "Musical Instruments, Stage & Studio"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:263
+#: Helpers/Plugin_Constants.php:304
+#: Helpers/Plugin_Constants.php:348
+#: Helpers/Plugin_Constants.php:388
+#: Helpers/Plugin_Constants.php:427
+#: Helpers/Plugin_Constants.php:469
+#: Helpers/Plugin_Constants.php:500
+#: Helpers/Plugin_Constants.php:528
+#: Helpers/Plugin_Constants.php:553
+#: Helpers/Plugin_Constants.php:582
+#: Helpers/Plugin_Constants.php:600
+#: Helpers/Plugin_Constants.php:636
+#: Helpers/Plugin_Constants.php:660
+#: Helpers/Plugin_Constants.php:676
+#: Helpers/Plugin_Constants.php:701
+#: Helpers/Plugin_Constants.php:792
+msgid "Office Products"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:265
+msgid "Shoes & Handbags"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:267
+#: Helpers/Plugin_Constants.php:308
+#: Helpers/Plugin_Constants.php:353
+#: Helpers/Plugin_Constants.php:392
+#: Helpers/Plugin_Constants.php:431
+#: Helpers/Plugin_Constants.php:473
+#: Helpers/Plugin_Constants.php:503
+#: Helpers/Plugin_Constants.php:531
+#: Helpers/Plugin_Constants.php:556
+#: Helpers/Plugin_Constants.php:585
+#: Helpers/Plugin_Constants.php:602
+#: Helpers/Plugin_Constants.php:640
+#: Helpers/Plugin_Constants.php:662
+#: Helpers/Plugin_Constants.php:677
+#: Helpers/Plugin_Constants.php:744
+#: Helpers/Plugin_Constants.php:797
+msgid "Sports & Outdoors"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:268
+#: Helpers/Plugin_Constants.php:309
+#: Helpers/Plugin_Constants.php:354
+#: Helpers/Plugin_Constants.php:393
+#: Helpers/Plugin_Constants.php:432
+#: Helpers/Plugin_Constants.php:474
+#: Helpers/Plugin_Constants.php:504
+#: Helpers/Plugin_Constants.php:532
+#: Helpers/Plugin_Constants.php:557
+#: Helpers/Plugin_Constants.php:586
+#: Helpers/Plugin_Constants.php:603
+#: Helpers/Plugin_Constants.php:641
+#: Helpers/Plugin_Constants.php:663
+#: Helpers/Plugin_Constants.php:678
+#: Helpers/Plugin_Constants.php:705
+#: Helpers/Plugin_Constants.php:798
+msgid "Tools & Home Improvement"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:270
+#: Helpers/Plugin_Constants.php:311
+#: Helpers/Plugin_Constants.php:356
+#: Helpers/Plugin_Constants.php:747
+#: Helpers/Plugin_Constants.php:800
+msgid "VHS"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:272
+#: Helpers/Plugin_Constants.php:313
+#: Helpers/Plugin_Constants.php:358
+#: Helpers/Plugin_Constants.php:396
+#: Helpers/Plugin_Constants.php:435
+#: Helpers/Plugin_Constants.php:477
+#: Helpers/Plugin_Constants.php:507
+#: Helpers/Plugin_Constants.php:645
+#: Helpers/Plugin_Constants.php:749
+#: Helpers/Plugin_Constants.php:802
+msgid "Watches"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:277
+#: Helpers/Plugin_Constants.php:319
+#: Helpers/Plugin_Constants.php:363
+#: Helpers/Plugin_Constants.php:401
+#: Helpers/Plugin_Constants.php:441
+#: Helpers/Plugin_Constants.php:610
+#: Helpers/Plugin_Constants.php:684
+#: Helpers/Plugin_Constants.php:755
+msgid "Appliances"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:278
+#: Helpers/Plugin_Constants.php:320
+#: Helpers/Plugin_Constants.php:364
+#: Helpers/Plugin_Constants.php:402
+#: Helpers/Plugin_Constants.php:442
+#: Helpers/Plugin_Constants.php:481
+#: Helpers/Plugin_Constants.php:511
+#: Helpers/Plugin_Constants.php:539
+#: Helpers/Plugin_Constants.php:564
+#: Helpers/Plugin_Constants.php:592
+#: Helpers/Plugin_Constants.php:611
+#: Helpers/Plugin_Constants.php:649
+#: Helpers/Plugin_Constants.php:686
+#: Helpers/Plugin_Constants.php:757
+msgid "Automotive Parts & Accessories"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:283
+#: Helpers/Plugin_Constants.php:326
+#: Helpers/Plugin_Constants.php:407
+#: Helpers/Plugin_Constants.php:449
+#: Helpers/Plugin_Constants.php:616
+#: Helpers/Plugin_Constants.php:720
+#: Helpers/Plugin_Constants.php:764
+msgid "Digital Music"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:286
+#: Helpers/Plugin_Constants.php:329
+#: Helpers/Plugin_Constants.php:372
+#: Helpers/Plugin_Constants.php:410
+#: Helpers/Plugin_Constants.php:452
+#: Helpers/Plugin_Constants.php:485
+#: Helpers/Plugin_Constants.php:517
+#: Helpers/Plugin_Constants.php:544
+#: Helpers/Plugin_Constants.php:570
+#: Helpers/Plugin_Constants.php:619
+#: Helpers/Plugin_Constants.php:654
+#: Helpers/Plugin_Constants.php:674
+#: Helpers/Plugin_Constants.php:693
+#: Helpers/Plugin_Constants.php:768
+msgid "Clothing, Shoes & Jewelry"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:287
+#: Helpers/Plugin_Constants.php:330
+#: Helpers/Plugin_Constants.php:411
+#: Helpers/Plugin_Constants.php:456
+#: Helpers/Plugin_Constants.php:620
+msgid "Foreign Books"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:288
+#: Helpers/Plugin_Constants.php:331
+#: Helpers/Plugin_Constants.php:374
+#: Helpers/Plugin_Constants.php:412
+#: Helpers/Plugin_Constants.php:518
+#: Helpers/Plugin_Constants.php:545
+#: Helpers/Plugin_Constants.php:571
+#: Helpers/Plugin_Constants.php:621
+#: Helpers/Plugin_Constants.php:774
+msgid "Garden & Outdoor"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:292
+#: Helpers/Plugin_Constants.php:335
+#: Helpers/Plugin_Constants.php:377
+#: Helpers/Plugin_Constants.php:416
+#: Helpers/Plugin_Constants.php:459
+#: Helpers/Plugin_Constants.php:493
+#: Helpers/Plugin_Constants.php:521
+#: Helpers/Plugin_Constants.php:547
+#: Helpers/Plugin_Constants.php:574
+#: Helpers/Plugin_Constants.php:598
+#: Helpers/Plugin_Constants.php:625
+#: Helpers/Plugin_Constants.php:656
+#: Helpers/Plugin_Constants.php:696
+#: Helpers/Plugin_Constants.php:778
+msgid "Health, Household & Baby Care"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:303
+#: Helpers/Plugin_Constants.php:347
+#: Helpers/Plugin_Constants.php:387
+#: Helpers/Plugin_Constants.php:426
+#: Helpers/Plugin_Constants.php:468
+#: Helpers/Plugin_Constants.php:499
+#: Helpers/Plugin_Constants.php:527
+#: Helpers/Plugin_Constants.php:552
+#: Helpers/Plugin_Constants.php:581
+#: Helpers/Plugin_Constants.php:635
+#: Helpers/Plugin_Constants.php:700
+#: Helpers/Plugin_Constants.php:791
+msgid "Musical Instruments"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:306
+#: Helpers/Plugin_Constants.php:351
+#: Helpers/Plugin_Constants.php:390
+#: Helpers/Plugin_Constants.php:429
+#: Helpers/Plugin_Constants.php:471
+#: Helpers/Plugin_Constants.php:638
+#: Helpers/Plugin_Constants.php:795
+msgid "Shoes"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:317
+#: Helpers/Plugin_Constants.php:439
+#: Helpers/Plugin_Constants.php:753
+msgid "Prime Video"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:324
+#: Helpers/Plugin_Constants.php:446
+#: Helpers/Plugin_Constants.php:761
+msgid "Classical"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:343
+#: Helpers/Plugin_Constants.php:786
+msgid "Magazine Subscriptions"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:350
+#: Helpers/Plugin_Constants.php:794
+msgid "Camera & Photo"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:368
+#: Helpers/Plugin_Constants.php:762
+msgid "Collectibles & Fine Art"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:373
+msgid "Furniture"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:448
+msgid "Credit Cards"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:453
+#: Helpers/Plugin_Constants.php:486
+#: Helpers/Plugin_Constants.php:769
+msgid "Clothing, Shoes & Jewelry Baby"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:454
+#: Helpers/Plugin_Constants.php:489
+#: Helpers/Plugin_Constants.php:772
+msgid "Clothing, Shoes & Jewelry Men"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:455
+#: Helpers/Plugin_Constants.php:490
+#: Helpers/Plugin_Constants.php:773
+msgid "Clothing, Shoes & Jewelry Women"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:460
+msgid "Hobby"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:475
+msgid "Toys"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:487
+#: Helpers/Plugin_Constants.php:770
+msgid "Clothing, Shoes & Jewelry Boys"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:488
+#: Helpers/Plugin_Constants.php:771
+msgid "Clothing, Shoes & Jewelry Girls"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:538
+#: Helpers/Plugin_Constants.php:563
+#: Helpers/Plugin_Constants.php:685
+#: Helpers/Plugin_Constants.php:756
+msgid "Arts, Crafts & Sewing"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:609
+msgid "  Clothing & Accessories"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:643
+msgid "Car Rentals"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:694
+msgid "Home & Garden"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:704
+msgid "Sports"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:711
+msgid "Amazon Video"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:712
+msgid "Clothing"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:713
+msgid "Large Appliances"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:714
+msgid "Car & Motorbike"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:716
+msgid "Beauty"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:719
+msgid "Computers & Accessories"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:721
+msgid "Electronics & Photo"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:723
+msgid "Fashion"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:724
+msgid "Garden & Outdoors"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:726
+msgid "Grocery"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:731
+msgid "Jewellery"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:734
+msgid "Luggage"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:737
+msgid "DVD & Blu-ray"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:739
+msgid "Musical Instruments & DJ"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:740
+msgid "Stationery & Office Supplies"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:742
+msgid "Shoes & Bags"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:745
+msgid "DIY & Tools"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:748
+msgid "PC & Video Games"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:765
+msgid "Digital Educational Resources"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:783
+msgid "Home & Business Services"
+msgstr ""
+
+#: Helpers/Plugin_Constants.php:787
+msgid "Cell Phones & Accessories"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:177
+#: Models/Advanced_Reporting.php:441
+#: Models/Advanced_Reporting.php:476
+#: Models/Advanced_Reporting.php:520
+#: Models/Advanced_Reporting.php:690
+#: Models/Advanced_Reporting.php:947
+#: Models/Advanced_Reporting.php:1012
+#: Models/Advanced_Reporting.php:1327
+#: Models/Advanced_Reporting.php:1423
+#: Models/Advanced_Reporting.php:1694
+#: Models/Advanced_Reporting.php:1768
+#: Models/Autolinker.php:560
+#: Models/Geolocation.php:367
+#: Models/Geolocation.php:400
+#: Models/Guided_Tour.php:424
+#: Models/Htaccess.php:213
+#: Models/Input_Link_Picker.php:157
+#: Models/Link_Health_Checker.php:715
+#: Models/Link_Health_Checker.php:744
+#: Models/Link_Health_Checker.php:793
+#: Models/Link_Health_Checker.php:822
+#: Models/Link_Health_Checker.php:884
+#: Models/Plugin_Visibility.php:559
+#: Models/Preset_Click_Data.php:246
+#: Models/Preset_Click_Data.php:292
+#: Models/Preset_Click_Data.php:338
+#: Models/Settings_Extension.php:1748
+#: Models/Settings_Extension.php:1800
+#: Models/URL_Shortener.php:257
+msgid "Invalid AJAX call"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:179
+#: Models/Advanced_Reporting.php:1014
+#: Models/Plugin_Visibility.php:563
+msgid "Missing required post data"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:203
+msgid "Category: "
+msgstr ""
+
+#: Models/Advanced_Reporting.php:243
+#: Models/Advanced_Reporting.php:773
+#: Models/Advanced_Reporting.php:1107
+#: Models/Advanced_Reporting.php:1513
+msgid "24 Hours"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:361
+msgid "Report saved successfully! You will now be able to load this report again after reloading the page."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:363
+msgid "Something went wrong while trying to save the report. Please try again."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:366
+#: Models/Advanced_Reporting.php:443
+#: Models/Advanced_Reporting.php:478
+#: Models/Advanced_Reporting.php:522
+#: Models/Advanced_Reporting.php:692
+#: Models/Advanced_Reporting.php:1329
+#: Models/Advanced_Reporting.php:1425
+#: Models/Advanced_Reporting.php:1696
+#: Models/Input_Link_Picker.php:159
+#: Models/Link_Health_Checker.php:746
+#: Models/Link_Health_Checker.php:795
+#: Models/Link_Health_Checker.php:824
+#: Models/Link_Health_Checker.php:886
+#: Models/Plugin_Visibility.php:561
+#: Models/Preset_Click_Data.php:294
+#: Models/Preset_Click_Data.php:340
+#: Models/URL_Shortener.php:259
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:445
+#: Models/Advanced_Reporting.php:480
+#: Models/Advanced_Reporting.php:524
+msgid "Required parameters not supplied."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:561
+msgid "Load saved report"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:562
+msgid "Save report"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:563
+msgid "Add link report"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:564
+msgid "Add category report"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:578
+msgid "Loaded report:"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:712
+msgid "No report to load."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:743
+#: Models/Settings_Extension.php:1538
+msgid "Geolocation"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:744
+msgid "Geolocation Report"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:745
+msgid "Total clicks on affiliate links specific on the visitor's location over a given period."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:769
+#: Models/Advanced_Reporting.php:1103
+#: Models/Advanced_Reporting.php:1509
+msgid "Year"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:770
+#: Models/Advanced_Reporting.php:1104
+#: Models/Advanced_Reporting.php:1510
+msgid "Last Month"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:771
+#: Models/Advanced_Reporting.php:1105
+#: Models/Advanced_Reporting.php:1511
+msgid "This Month"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:772
+#: Models/Advanced_Reporting.php:1106
+#: Models/Advanced_Reporting.php:1512
+msgid "Last 7 Days"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:924
+msgid "No report data to show"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:969
+msgid "Displaying report data from <strong>%s</strong> to <strong>%s</strong>"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1019
+#: views/amazon/view-amazon-page.php:50
+msgid "Legend"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1075
+msgid "Stats Table"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1076
+msgid "Stats Table Report"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1077
+msgid "View click data in a full table report based on a selected time period."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1261
+msgid "<em>no data</em>"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1310
+msgid "No data to show."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1387
+msgid "« Previous"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1408
+msgid "Next »"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1484
+msgid "Keywords"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1485
+msgid "Keywords Report"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1486
+msgid "The keyword report gathers what particular words or phrases were linked when a link was clicked."
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1668
+msgid "<em>No keyword</em>"
+msgstr ""
+
+#: Models/Advanced_Reporting.php:1836
+msgid "Stats Summary"
+msgstr ""
+
+#: Models/Bootstrap.php:380
+#: Models/Settings_Extension.php:1255
+msgid "Settings"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Exporter.php:87
+#: Models/CSV_Import_Export.php:204
+msgid "ThirstyAffiliates CSV Exporter"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Exporter.php:98
+msgid "STEP 2 - exporting CSV:"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Exporter.php:99
+msgid "We are now exporting your CSV file."
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Exporter.php:217
+msgid "Could not open file for writing, check your upload directory permissions."
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Exporter.php:222
+msgid "All done. %d affiliate links exported successfully. <a href=\"%s\">Click here to download your file.</a>"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Exporter.php:227
+msgid "No links found to export."
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:88
+#: Models/CSV_Import_Export.php:196
+msgid "ThirstyAffiliates CSV Importer"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:99
+msgid "STEP 2 - importing CSV:"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:100
+msgid "We are now checking your CSV and importing links into the system."
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:199
+msgid "All done. %d affiliate links imported successfully."
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:200
+msgid "View all affiliate links &rarr;"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:226
+msgid "Importing link:"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:304
+msgid "<p><a href=\"%s\">Edit Link</a> | <a href=\"%s\" target=\"_blank\">View Link</a></p>"
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:357
+msgid "Error storing temporary image file, check permissions on upload directory."
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:372
+msgid "Error storing image permanently, check permissions on upload directory."
+msgstr ""
+
+#: Models/CSV_Importer/CSV_Importer.php:378
+msgid "Attaching image to link, success."
+msgstr ""
+
+#: Models/CSV_Import_Export.php:119
+#: Models/CSV_Import_Export.php:120
+msgid "Import CSV"
+msgstr ""
+
+#: Models/CSV_Import_Export.php:128
+#: Models/CSV_Import_Export.php:129
+#: views/reports/export-csv-button.php:6
+#: views/reports/stats-table-report.php:33
+msgid "Export CSV"
+msgstr ""
+
+#: Models/CSV_Import_Export.php:146
+#: Models/CSV_Import_Export.php:163
+msgid "You do not have suffifient permissions to access this page."
+msgstr ""
+
+#: Models/CSV_Import_Export.php:148
+msgid "Redirecting to the ThirstyAffiliates CSV Importer..."
+msgstr ""
+
+#: Models/CSV_Import_Export.php:165
+msgid "Redirecting to the ThirstyAffiliates CSV Exporter..."
+msgstr ""
+
+#: Models/CSV_Import_Export.php:197
+msgid "Import affiliate links via a properly formatted CSV file, handy for bulk importing of affiliate links."
+msgstr ""
+
+#: Models/CSV_Import_Export.php:205
+msgid "Export affiliate links to a properly formatted CSV file, handy for transferring to another site using the CSV Import."
+msgstr ""
+
+#: Models/Event_Notification.php:144
+#: Models/Event_Notification.php:146
+#: Models/Event_Notification.php:199
+#: Models/Settings_Extension.php:1243
+msgid "Event Notifications"
+msgstr ""
+
+#: Models/Event_Notification.php:145
+#: Models/Settings_Extension.php:1566
+msgid "Event Notification"
+msgstr ""
+
+#: Models/Event_Notification.php:147
+msgid "All Event Notifications"
+msgstr ""
+
+#: Models/Event_Notification.php:148
+msgid "Parent Event Notification"
+msgstr ""
+
+#: Models/Event_Notification.php:149
+msgid "Parent Event Notification:"
+msgstr ""
+
+#: Models/Event_Notification.php:150
+msgid "New Event Notification Name"
+msgstr ""
+
+#: Models/Event_Notification.php:151
+msgid "Add New Event Notification"
+msgstr ""
+
+#: Models/Event_Notification.php:152
+msgid "Edit Event Notification"
+msgstr ""
+
+#: Models/Event_Notification.php:153
+msgid "Update Event Notification"
+msgstr ""
+
+#: Models/Event_Notification.php:154
+msgid "View Event Notification"
+msgstr ""
+
+#: Models/Event_Notification.php:155
+msgid "Separate items with commas"
+msgstr ""
+
+#: Models/Event_Notification.php:156
+msgid "Add or remove items"
+msgstr ""
+
+#: Models/Event_Notification.php:157
+msgid "Choose from the most used"
+msgstr ""
+
+#: Models/Event_Notification.php:158
+msgid "Popular Event Notifications"
+msgstr ""
+
+#: Models/Event_Notification.php:159
+msgid "Search Event Notifications"
+msgstr ""
+
+#: Models/Event_Notification.php:160
+msgid "Not Found"
+msgstr ""
+
+#: Models/Event_Notification.php:161
+msgid "No items"
+msgstr ""
+
+#: Models/Event_Notification.php:162
+msgid "Event notification list"
+msgstr ""
+
+#: Models/Event_Notification.php:163
+msgid "Event notification list navigation"
+msgstr ""
+
+#: Models/Event_Notification.php:234
+msgid "Notification Type"
+msgstr ""
+
+#: Models/Event_Notification.php:235
+msgid "Trigger Value"
+msgstr ""
+
+#: Models/Event_Notification.php:286
+msgid "Send an email when the link reaches a defined number of clicks."
+msgstr ""
+
+#: Models/Event_Notification.php:287
+msgid "Send an email when the link reaches a defined number of clicks within 24 hours."
+msgstr ""
+
+#: Models/Event_Notification.php:340
+msgid ""
+"<p>Event notifications allow you to send a notification to someone when some significant event happens with your affiliate links.</p>\n"
+"             <p>You can setup different event notifications here, then assign one or more to an affiliate link and ThirstyAffiliates will monitor that link for those events.</p>"
+msgstr ""
+
+#: Models/Event_Notification.php:435
+msgid "%s affiliate link has reached %s clicks - %s"
+msgstr ""
+
+#: Models/Event_Notification.php:436
+msgid ""
+"<h3>ThirstyAffiliates Event Notification</h3>\n"
+"                                           <p>The <strong>%s</strong> affiliate link has reached <strong>%s clicks</strong>.</p>\n"
+"                                           <p><a href=\"%s\">Edit affiliate link</a> | <a href=\"%s\">View affiliate link report</a></p>"
+msgstr ""
+
+#: Models/Event_Notification.php:466
+msgid "%s affiliate link has reached %s clicks within the last 24 hours - %s"
+msgstr ""
+
+#: Models/Event_Notification.php:467
+msgid ""
+"<h3>ThirstyAffiliates Event Notification</h3>\n"
+"                                           <p>The <strong>%s</strong> affiliate link has reached <strong>%s clicks</strong> within the last 24 hours.</p>\n"
+"                                           <p><a href=\"%s\">Edit affiliate link</a> | <a href=\"%s\">View affiliate link report</a></p>"
+msgstr ""
+
+#: Models/Geolocation.php:131
+msgid "The selected geolocation link being edited doesn't exist anymore."
+msgstr ""
+
+#: Models/Geolocation.php:153
+msgid "There was an error on updating the geolinks."
+msgstr ""
+
+#: Models/Geolocation.php:171
+msgid "There are no registered geolocation links to remove."
+msgstr ""
+
+#: Models/Geolocation.php:176
+msgid "The selected geolocation link doesn't exist or has already been removed"
+msgstr ""
+
+#: Models/Guided_Tour.php:147
+msgid ""
+"<h3> Thanks for activating ThirstyAffiliates Pro!</h3>\n"
+"                               <p>The Pro add-on for ThirstyAffiliates contains all the advanced features that you’ve been dreaming of.<p>\n"
+"                               <p>Would you like to go on a quick guided tour of these advanced features?</p>\n"
+"                               <p>It takes less than a minute and you’ll know more about what is possible with ThirstyAffiliates Pro.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:159
+msgid ""
+"<h3>As mentioned, Event Notifications can alert you or others when certain events happen with your affiliate links.</h3>\n"
+"                               <p>This screen lets you define how those notifications work.</p>\n"
+"                               <p>Give you Event Notification a name (for internal reference), select the type and define the trigger value.</p>\n"
+"                               <p>Once you create an Event Notification you can assign it to any affiliate links that need it.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:170
+msgid ""
+"<h3>Amazon is a very popular program for affiliates due to their massive range of products and services.</h3>\n"
+"                               <p>Now you can import Amazon products as affiliate links in ThirstyAffiliates and they will be automatically setup with your codes and ready to be used in your content.</p>\n"
+"                               <p>There is some additional configuration required for the Amazon importer to work with Amazon’s API, so please check the settings area after the tour to set it up.</p>\n"
+"                               <p>We are also working with additional partners to introduce other new API importers to assist you with finding products to promote!</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:182
+msgid ""
+"<h3>You can also import and export affiliate links via CSV file.</h3>\n"
+"                                   <p>This is handy for managing affiliate links across multiple sites.</p>\n"
+"                                   <p>It handles all the core ThirstyAffiliates data along with any additional meta data you want to import against your links.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:193
+msgid ""
+"<h3>Additional reports have been added to the Reports section.</h3>\n"
+"                               <p>In the free ThirstyAffiliates you can report on all your links or specific links, but in Pro, you can now also report on categories. This is great for seeing how a set of related links are performing.</p>\n"
+"                               <p>Additionally, there is another report available for Geolocation links with an amazing interactive map interface.</p>\n"
+"                               <p>You can also export your report data to a CSV file for further manipulation in programs like Excel and Numbers.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:205
+msgid ""
+"<h3>Click tracking sends an event to your Google Analytics when someone clicks on an affiliate link.</h3>\n"
+"                                   <p>This is handy for seeing affiliate link click data in your Google Analytics reports.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:214
+msgid ""
+"<h3>This is the modules area where you can switch certain features on/off.</h3>\n"
+"                                   <p>You might notice this has quite a few new modules in here now that you have ThirstyAffiliates Pro installed.</p>\n"
+"                                   <p>All modules are enabled by default but if you find you aren’t using some features we encourage you to switch that feature off to save resources and speed up the plugin.</p>\n"
+"                                   <p>The Htaccess module is the only module that is not enabled by default as this is a special feature for advanced users. If you know how .htaccess works and your server technology is compatible, ThirstyAffiliates can transfer the redirects of your affiliate links there.</p>\n"
+"                                   <p>However, be aware that any links in your .htaccess will not be recorded in your click statistics reports.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:227
+msgid ""
+"<h3>This concludes the ThirstyAffiliates Pro features tour.</h3>\n"
+"                               <p>We hope you have enjoyed the tour and get tons of value from our Pro features!</p>\n"
+"                               <p>If you have any problems or questions about them please get in touch with support.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:313
+msgid ""
+"<h3> ThirstyAffiliates Pro adds a number of new sections to your link edit screen to accommodate the new advanced features.</h3>\n"
+"                               <p>The new sections on this screen are:</p>\n"
+"                               <ol><li>Autolink Keywords</li>\n"
+"                               <li>Geolocations URLs</li>\n"
+"                               <li>Event Notifications</li></ol>"
+msgstr ""
+
+#: Models/Guided_Tour.php:326
+msgid ""
+"<h3> One of the most frustrating parts of monetizing a site with lots of content is going back through that content to add appropriate affiliate links.</h3>\n"
+"                               <p>The Autolink Keywords feature lets you define a number of keywords that should be automatically linked to your affiliate link. This makes light work of monetizing your existing content and takes away much of the burden of manually linking new articles.</p>\n"
+"                               <p>You can place limitations on the automatic linking as well. Such as a limit on the number of times a keyword can be linked, whether links should appear in headings and if they should be randomly placed or not.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:337
+msgid ""
+"<h3>Does your site cater to audiences in multiple countries? A great way to increase your earnings is to localise your affiliate links for the visitor’s country.</h3>\n"
+"                               <p>When visitors are referred to a store that is local to them, as opposed to an overseas store, they will be more likely to buy which results in more commissions for you.</p>\n"
+"                               <p>You can use this section to define alternate destination URLs for your affiliate link based on the detected country of the visitor.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:348
+msgid ""
+"<h3>Event Notifications can alert you when pre-defined events happen with your affiliate links.</h3>\n"
+"                               <p>This included things like if a link receives a certain number of clicks.</p>\n"
+"                               <p>Or if a link exceeds a certain threshold of clicks over a 24 hour period.</p>\n"
+"                               <p>Next, we’ll see how to create new Event Notifications.</p>"
+msgstr ""
+
+#: Models/Guided_Tour.php:426
+msgid "Security Check Failed"
+msgstr ""
+
+#: Models/Htaccess.php:215
+#: Models/Settings_Extension.php:1750
+#: Models/Settings_Extension.php:1802
+msgid "You are not allowed to do this action."
+msgstr ""
+
+#: Models/Htaccess.php:228
+msgid "<span class=\"success\"><strong>%s</strong> affiliate links successfully added.</span> "
+msgstr ""
+
+#: Models/Htaccess.php:229
+msgid "<span class=\"fail\"><strong>%s</strong> failed.</span> "
+msgstr ""
+
+#: Models/Htaccess.php:230
+msgid "<span class=\"exist\"><strong>%s</strong> already exist.</span> "
+msgstr ""
+
+#: Models/Htaccess.php:231
+msgid "View the htaccess debug log to view full report"
+msgstr ""
+
+#: Models/Htaccess.php:343
+msgid "Link updated. <a href=\"%s\">View link</a>"
+msgstr ""
+
+#: Models/Htaccess.php:345
+msgid "<p>Because the <b>ThirstyAffiliates Pro Htaccess module</b> is on, links may appear cached in your browser. To test a link after you change the destination, always use a Private Browsing/Incognito window to ensure a fresh browser session.</p>"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:224
+msgid "ThirstyAffiliates automatic 404 checker report %s - %s"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:275
+msgid "The required ID or destination_url parameter is missing."
+msgstr ""
+
+#: Models/Link_Health_Checker.php:306
+msgid "The provided URL is invalid."
+msgstr ""
+
+#: Models/Link_Health_Checker.php:316
+msgid "Failed on getting a response from provided URL."
+msgstr ""
+
+#: Models/Link_Health_Checker.php:321
+msgid "Link doesn't exist or is temporarily not available"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:405
+#: Models/Link_Health_Checker.php:465
+#: Models/Metaboxes.php:233
+msgid "404 Checker"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:454
+msgid "<p>Below is the list of issues that need to be addressed. Not all issues listed here will be serious issues and some might be false positives.</p><p>Choose to \"Recheck\" to check a single link again and see if the same issue remains. If so, decide if the automatic 404 checker should ignore the reported issue (if it's a false positive).</p><p>If you decide to change the destination URL of the affiliate link, choose \"Recheck\" after you have made the change to see if that solves the issue.</p><div class='legend'><p><strong class='warning'>Warnings</strong>: You should check that the link is resolving where you think it should be resolving. If so, mark it ignored and the health checker won't check it again.</p><p><strong class='error'>Errors:</strong> Pay special attention. Errors indicate a 404 status code was thrown when trying to visit the link. Check that everything is OK and if it is, mark it ignored. Otherwise, make whatever changes you need to the link and click recheck to see if those changes worked.</p></div>"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:466
+#: Models/Settings_Extension.php:1288
+msgid "404 Checker Report"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:561
+#: Models/Link_Health_Checker.php:588
+#: views/link-health-checker/link-health-report.php:21
+msgid "ignored"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:604
+#: Models/Link_Health_Checker.php:766
+#: Models/Link_Health_Checker.php:857
+msgid "Unknown"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:622
+msgid "Visit affiliate link"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:627
+msgid "Expected:"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:631
+msgid "Actual:"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:640
+msgid "No data"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:651
+msgid "Fix"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:654
+#: views/link-health-checker/link-health-report.php:9
+msgid "Recheck"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:657
+#: views/link-health-checker/link-health-report.php:10
+msgid "Ignore"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:667
+msgid "No issues to display."
+msgstr ""
+
+#: Models/Link_Health_Checker.php:755
+#: Models/Link_Health_Checker.php:848
+msgid "<em>Fixed</em>"
+msgstr ""
+
+#: Models/Link_Health_Checker.php:802
+msgid "Failed to ignore issue or issue doesn't exist anymore."
+msgstr ""
+
+#: Models/Link_Health_Checker.php:888
+#: Models/Settings_Extension.php:622
+msgid "The previous automatic 404 checker cron job is still running."
+msgstr ""
+
+#: Models/Link_Health_Checker.php:897
+msgid "Link Checker has been run manually successfully."
+msgstr ""
+
+#: Models/Metaboxes.php:146
+msgid "ThirstyAffiliates Autolinker"
+msgstr ""
+
+#: Models/Metaboxes.php:172
+msgid "Autolink Keywords"
+msgstr ""
+
+#: Models/Metaboxes.php:184
+msgid "Geolocation URLs"
+msgstr ""
+
+#: Models/Metaboxes.php:196
+#: Models/Settings_Extension.php:739
+#: Models/Settings_Extension.php:1587
+msgid "Link Scheduler"
+msgstr ""
+
+#: Models/Metaboxes.php:206
+msgid "Preset Click Data Parameters"
+msgstr ""
+
+#: Models/Metaboxes.php:329
+msgid "Regenerate Short URL with %s"
+msgstr ""
+
+#: Models/Metaboxes.php:329
+msgid "Generate Short URL"
+msgstr ""
+
+#: Models/Mothership/Settings.php:100
+#: Models/Mothership/Settings.php:101
+msgid "TAP License"
+msgstr ""
+
+#: Models/Mothership/Settings.php:118
+msgid "ThirstyAffiliates Pro License"
+msgstr ""
+
+#: Models/Mothership/Settings.php:128
+#: Models/Plugin_Visibility.php:454
+msgid "Save Changes"
+msgstr ""
+
+#: Models/Mothership/Settings.php:203
+msgid "License"
+msgstr ""
+
+#: Models/Mothership/Settings.php:204
+msgid "Enter the license key given to you after purchasing ThirstyAffiliates Pro. You can find this information by logging into your <a href=\"%1$s\" target=\"_blank\">Account</a> on our website or in the purchase confirmation email sent to your email address."
+msgstr ""
+
+#: Models/Mothership/Settings.php:268
+#: Models/Mothership/Settings.php:377
+#: Models/Mothership/Settings.php:404
+#: Models/Mothership/Settings.php:439
+#: Models/Mothership/Settings.php:459
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:302
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:594
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:623
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:651
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:711
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:106
+msgid "Invalid AJAX Operation"
+msgstr ""
+
+#: Models/Mothership/Settings.php:270
+#: Models/Mothership/Settings.php:379
+#: Models/Mothership/Settings.php:406
+#: Models/Mothership/Settings.php:461
+msgid "You do not have permission to do this"
+msgstr ""
+
+#: Models/Mothership/Settings.php:272
+#: Models/Mothership/Settings.php:381
+#: Models/Mothership/Settings.php:408
+#: Models/Mothership/Settings.php:463
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:304
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:596
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:625
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:653
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:713
+msgid "Required parameters not supplied"
+msgstr ""
+
+#: Models/Mothership/Settings.php:274
+#: Models/Mothership/Settings.php:383
+#: Models/Mothership/Settings.php:410
+#: Models/Mothership/Settings.php:465
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:306
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:598
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:627
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:655
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:715
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:108
+msgid "Security check failed"
+msgstr ""
+
+#: Models/Mothership/Settings.php:294
+msgid "The license was successfully activated."
+msgstr ""
+
+#: Models/Mothership/Settings.php:318
+msgid "The license information is not available, try refreshing the page."
+msgstr ""
+
+#. translators: %1$s: the product name, %2$s: open link tag, %3$s: close link tag
+#: Models/Mothership/Settings.php:351
+msgid "This License Key has expired, but you have an active license for %1$s, %2$sclick here%3$s to activate using this license instead."
+msgstr ""
+
+#: Models/Mothership/Settings.php:388
+msgid "The license was successfully deactivated."
+msgstr ""
+
+#: Models/Mothership/Settings.php:423
+msgid "The correct edition of ThirstyAffiliates Pro has been installed successfully."
+msgstr ""
+
+#: Models/Mothership/Settings.php:425
+msgid "Failed to install the correct edition of ThirstyAffiliates Pro, please download it from thirstyaffiliates.com and install it manually."
+msgstr ""
+
+#: Models/Mothership/Settings.php:428
+msgid "License data not found"
+msgstr ""
+
+#: Models/Mothership/Update.php:211
+msgid "Error with THIRSTYAFFILIATES_PRO_LICENSE_KEY: %s"
+msgstr ""
+
+#: Models/Mothership/Update.php:270
+msgid "License key deactivated"
+msgstr ""
+
+#: Models/Mothership/Update.php:543
+msgid "You can access in-depth information about ThirstyAffiliates Pro at %1$sthe ThirstyAffiliates Knowledge Base%2$s."
+msgstr ""
+
+#: Models/Mothership/Update.php:544
+msgid "See the %1$splugin changelog%2$s."
+msgstr ""
+
+#: Models/Mothership/Update.php:593
+msgid "Please <a href=\"%1$s\">activate</a> your copy of ThirstyAffiliates Pro to get the latest updates and have access to support."
+msgstr ""
+
+#. translators: %1$s: open link tag, %2$s: close link tag
+#: Models/Mothership/Update.php:626
+msgid "To restore automatic updates, %1$sinstall the correct edition%2$s of ThirstyAffiliates Pro."
+msgstr ""
+
+#: Models/Plugin_Visibility.php:367
+#: Models/Plugin_Visibility.php:373
+msgid "(%s) At least an Administrator"
+msgstr ""
+
+#: Models/Plugin_Visibility.php:368
+msgid "(%s) At least an Editor (terms)"
+msgstr ""
+
+#: Models/Plugin_Visibility.php:374
+msgid "(%s) At least an Editor (posts)"
+msgstr ""
+
+#: Models/Plugin_Visibility.php:375
+msgid "(%s) At least an Author"
+msgstr ""
+
+#: Models/Plugin_Visibility.php:376
+msgid "(%s) At least a Contributor"
+msgstr ""
+
+#: Models/Plugin_Visibility.php:400
+msgid "Select role or capability"
+msgstr ""
+
+#: Models/Plugin_Visibility.php:461
+msgid "Please wait..."
+msgstr ""
+
+#: Models/Plugin_Visibility.php:582
+msgid "Admin menu items visibilty saved successfully."
+msgstr ""
+
+#: Models/Plugin_Visibility.php:585
+msgid "No changes to be saved."
+msgstr ""
+
+#: Models/Plugin_Visibility.php:626
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: Models/Preset_Click_Data.php:232
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:52
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:188
+msgid "No preset click data parameters saved yet."
+msgstr ""
+
+#: Models/Preset_Click_Data.php:248
+msgid "Missing required parameters."
+msgstr ""
+
+#: Models/Preset_Click_Data.php:296
+#: Models/Preset_Click_Data.php:342
+msgid "There is nothing to save."
+msgstr ""
+
+#: Models/Preset_Click_Data.php:317
+msgid "There was a problem saving the data. Please try again."
+msgstr ""
+
+#: Models/Script_Loader.php:148
+msgid "Please fill up the form properly"
+msgstr ""
+
+#: Models/Script_Loader.php:188
+msgid "No Data Available"
+msgstr ""
+
+#: Models/Script_Loader.php:189
+msgid "Please input search terms"
+msgstr ""
+
+#: Models/Script_Loader.php:190
+msgid "Failed to perform product search"
+msgstr ""
+
+#: Models/Script_Loader.php:191
+msgid "Load More"
+msgstr ""
+
+#: Models/Script_Loader.php:192
+msgid "No more results"
+msgstr ""
+
+#: Models/Script_Loader.php:193
+msgid "Import"
+msgstr ""
+
+#: Models/Script_Loader.php:194
+msgid "Quick Import"
+msgstr ""
+
+#: Models/Script_Loader.php:195
+msgid "Filter Results:"
+msgstr ""
+
+#: Models/Script_Loader.php:196
+msgid "Link Name:"
+msgstr ""
+
+#: Models/Script_Loader.php:197
+msgid "Link URL:"
+msgstr ""
+
+#: Models/Script_Loader.php:198
+msgid "http:// or https:// is required"
+msgstr ""
+
+#: Models/Script_Loader.php:199
+msgid "No Follow Link"
+msgstr ""
+
+#: Models/Script_Loader.php:200
+msgid "Open Link In New Tab"
+msgstr ""
+
+#: Models/Script_Loader.php:201
+msgid "Redirection Type:"
+msgstr ""
+
+#: Models/Script_Loader.php:202
+msgid "301 Permanent"
+msgstr ""
+
+#: Models/Script_Loader.php:203
+#: Models/Settings_Extension.php:1164
+msgid "302 Temporary"
+msgstr ""
+
+#: Models/Script_Loader.php:204
+msgid "307 Temporary (Alternative)"
+msgstr ""
+
+#: Models/Script_Loader.php:205
+msgid "Import Images:"
+msgstr ""
+
+#: Models/Script_Loader.php:206
+#: views/amazon/view-amazon-page.php:53
+#: views/amazon/view-amazon-page.php:74
+#: views/amazon/view-amazon-page.php:86
+msgid "Import Link"
+msgstr ""
+
+#: Models/Script_Loader.php:207
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:319
+msgid "Small"
+msgstr ""
+
+#: Models/Script_Loader.php:208
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:320
+msgid "Medium"
+msgstr ""
+
+#: Models/Script_Loader.php:209
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:321
+msgid "Large"
+msgstr ""
+
+#: Models/Script_Loader.php:210
+msgid "Import as Affiliate Link"
+msgstr ""
+
+#: Models/Script_Loader.php:211
+#: Models/Script_Loader.php:367
+#: views/metaboxes/view-geolocation-urls-metabox.php:23
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:28
+msgid "Cancel"
+msgstr ""
+
+#: Models/Script_Loader.php:212
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:672
+msgid "Failed to import product as an affiliate link"
+msgstr ""
+
+#: Models/Script_Loader.php:213
+msgid "Imported as an Affiliate Link"
+msgstr ""
+
+#: Models/Script_Loader.php:214
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:27
+msgid "Edit"
+msgstr ""
+
+#: Models/Script_Loader.php:215
+msgid "Visit"
+msgstr ""
+
+#: Models/Script_Loader.php:216
+#: views/reports/load-link-performance-report.php:30
+msgid "Delete"
+msgstr ""
+
+#: Models/Script_Loader.php:217
+msgid "Are you sure you want to delete this affiliate link?"
+msgstr ""
+
+#: Models/Script_Loader.php:218
+#: views/metaboxes/view-autolink-keywords-metabox.php:29
+#: views/metaboxes/view-autolink-keywords-metabox.php:41
+#: views/metaboxes/view-autolinker-post-metabox.php:26
+#: views/metaboxes/view-autolinker-post-metabox.php:38
+msgid "Yes"
+msgstr ""
+
+#: Models/Script_Loader.php:219
+msgid "Failed to delete imported affiliate link"
+msgstr ""
+
+#: Models/Script_Loader.php:220
+msgid "Importing"
+msgstr ""
+
+#: Models/Script_Loader.php:221
+msgid "Bulk Actions"
+msgstr ""
+
+#: Models/Script_Loader.php:222
+msgid "Delete Imported Link"
+msgstr ""
+
+#: Models/Script_Loader.php:223
+#: views/link-health-checker/link-health-report.php:12
+msgid "Apply"
+msgstr ""
+
+#: Models/Script_Loader.php:224
+msgid "Are you sure you want to remove the selected imported links?"
+msgstr ""
+
+#: Models/Script_Loader.php:270
+msgid "Invalid affiliate link selected."
+msgstr ""
+
+#: Models/Script_Loader.php:271
+msgid "Invalid category selected."
+msgstr ""
+
+#: Models/Script_Loader.php:272
+msgid "Please enter a valid report name"
+msgstr ""
+
+#: Models/Script_Loader.php:273
+msgid "Please select a valid saved report"
+msgstr ""
+
+#: Models/Script_Loader.php:274
+msgid "General"
+msgstr ""
+
+#: Models/Script_Loader.php:275
+msgid "All links"
+msgstr ""
+
+#: Models/Script_Loader.php:276
+msgid "Are you sure you want to delete the selected report?"
+msgstr ""
+
+#: Models/Script_Loader.php:310
+msgid "Please fill in the License Key field"
+msgstr ""
+
+#: Models/Script_Loader.php:311
+msgid "Please fill in the Activation Email field"
+msgstr ""
+
+#: Models/Script_Loader.php:313
+msgid "Server error occurred on ajax request. Please contact support."
+msgstr ""
+
+#: Models/Script_Loader.php:315
+msgid "An error occurred while installing the correct edition."
+msgstr ""
+
+#: Models/Script_Loader.php:316
+#: views/license/active_license.php:19
+msgid "Loading..."
+msgstr ""
+
+#: Models/Script_Loader.php:344
+msgid "Previous"
+msgstr ""
+
+#: Models/Script_Loader.php:345
+msgid "Next"
+msgstr ""
+
+#: Models/Script_Loader.php:346
+msgid "Close"
+msgstr ""
+
+#: Models/Script_Loader.php:347
+msgid "Yes, Show Quick Tour"
+msgstr ""
+
+#: Models/Script_Loader.php:363
+msgid "Insert Affiliate Link"
+msgstr ""
+
+#: Models/Script_Loader.php:364
+msgid "Search:"
+msgstr ""
+
+#: Models/Script_Loader.php:365
+msgid "No affiliate links found"
+msgstr ""
+
+#: Models/Script_Loader.php:366
+msgid "Insert Link"
+msgstr ""
+
+#: Models/Script_Loader.php:368
+msgid "Load more affiliate links"
+msgstr ""
+
+#: Models/Script_Loader.php:369
+msgid "No more affiliate links to load"
+msgstr ""
+
+#: Models/Script_Loader.php:405
+#: Models/Settings_Extension.php:1392
+msgid "This is an affiliate link. See our {{disclosure_link}}."
+msgstr ""
+
+#: Models/Script_Loader.php:408
+#: Models/Settings_Extension.php:1379
+msgid "disclosure notice"
+msgstr ""
+
+#: Models/Settings_Extension.php:161
+msgid "Done! Cache Rebuilt"
+msgstr ""
+
+#: Models/Settings_Extension.php:248
+msgid "Change"
+msgstr ""
+
+#: Models/Settings_Extension.php:259
+msgid "Cancel change"
+msgstr ""
+
+#: Models/Settings_Extension.php:311
+msgid "Please select a valid .mmdb file"
+msgstr ""
+
+#: Models/Settings_Extension.php:361
+msgid "Record/recreate all links"
+msgstr ""
+
+#: Models/Settings_Extension.php:368
+msgid "Adding all existing link entries to htaccess. Please be patient...<br/>This could take a while depending on the number of existing links"
+msgstr ""
+
+#: Models/Settings_Extension.php:453
+msgid "View .htaccess debug log"
+msgstr ""
+
+#: Models/Settings_Extension.php:454
+msgid "View plugin debug log"
+msgstr ""
+
+#: Models/Settings_Extension.php:537
+msgid "Fix all links"
+msgstr ""
+
+#: Models/Settings_Extension.php:544
+msgid "Fixing all existing link entries on the htaccess. Please be patient...<br/>This could take a while depending on the number of existing links"
+msgstr ""
+
+#: Models/Settings_Extension.php:625
+msgid "Run automatic 404 checker cron now"
+msgstr ""
+
+#: Models/Settings_Extension.php:696
+#: Models/Settings_Extension.php:1531
+msgid "Autolinker"
+msgstr ""
+
+#: Models/Settings_Extension.php:697
+msgid "Autolinker lets you provide a list of keywords to automatically link your affiliate links to in your content. These settings let you tweak exactly how the Autolinker does this job."
+msgstr ""
+
+#: Models/Settings_Extension.php:704
+msgid "Geolocations"
+msgstr ""
+
+#: Models/Settings_Extension.php:705
+msgid "Settings for the geolcations module."
+msgstr ""
+
+#: Models/Settings_Extension.php:715
+msgid "Click Tracking"
+msgstr ""
+
+#: Models/Settings_Extension.php:716
+msgid "<strong>Note:</strong> The Google Click Tracking module will not work until you've installed Google Analytics in your site. You can install it via a third party plugin. For advanced users using Google Tag Manager for analytics, please read this <a href='%s' target='_blank'>knowledgebase article</a>."
+msgstr ""
+
+#: Models/Settings_Extension.php:723
+#: Models/Settings_Extension.php:1573
+msgid "Automatic 404 Checker"
+msgstr ""
+
+#: Models/Settings_Extension.php:724
+msgid "Settings for the automatic 404 checker module."
+msgstr ""
+
+#: Models/Settings_Extension.php:731
+#: Models/Settings_Extension.php:1580
+msgid "URL Shortener"
+msgstr ""
+
+#: Models/Settings_Extension.php:732
+msgid "Settings for the URL shortener module."
+msgstr ""
+
+#: Models/Settings_Extension.php:740
+msgid "Settings for the link scheduler module."
+msgstr ""
+
+#: Models/Settings_Extension.php:748
+#: Models/Settings_Extension.php:1594
+msgid "Plugin Visibility"
+msgstr ""
+
+#: Models/Settings_Extension.php:749
+msgid "These settings allow you to manage the visibility of screens and menus throughout the plugin. Use it to allow access to some parts of the plugin for people who work on your site, but restrict access to other undesirable areas. Admins have full access and are unaffected by these settings."
+msgstr ""
+
+#: Models/Settings_Extension.php:758
+#: Models/Settings_Extension.php:1601
+msgid "Affiliate Disclosure"
+msgstr ""
+
+#: Models/Settings_Extension.php:759
+msgid "Settings to customize affiliate disclosure display."
+msgstr ""
+
+#: Models/Settings_Extension.php:818
+msgid "Autolinker function"
+msgstr ""
+
+#: Models/Settings_Extension.php:819
+msgid "Select version of autolinker function to use."
+msgstr ""
+
+#: Models/Settings_Extension.php:823
+msgid "New (version 1.4.0 and up)."
+msgstr ""
+
+#: Models/Settings_Extension.php:824
+msgid "Old (below version 1.4.0)"
+msgstr ""
+
+#: Models/Settings_Extension.php:829
+msgid "Keyword Limit"
+msgstr ""
+
+#: Models/Settings_Extension.php:830
+msgid "How many links per keyword should the autolinker place before stopping? (setting it to 0 will disable keyword limit)."
+msgstr ""
+
+#: Models/Settings_Extension.php:836
+msgid "Random Autolink Placement?"
+msgstr ""
+
+#: Models/Settings_Extension.php:837
+msgid "Enable random placement of autolinks globally."
+msgstr ""
+
+#: Models/Settings_Extension.php:843
+msgid "Link inside of heading tags?"
+msgstr ""
+
+#: Models/Settings_Extension.php:844
+msgid "Enable link placement inside of heading tags. Eg. <h1>, <h2>, <h3>, etc. Note this only links if the heading is part of the actual content, not the post/page title globally."
+msgstr ""
+
+#: Models/Settings_Extension.php:850
+msgid "Disable autolinking on archive pages?"
+msgstr ""
+
+#: Models/Settings_Extension.php:851
+msgid "Disable autolinking on archive pages (this includes category and tag pages)"
+msgstr ""
+
+#: Models/Settings_Extension.php:857
+msgid "Disable autolinking on home page?"
+msgstr ""
+
+#: Models/Settings_Extension.php:858
+msgid "Disable autolinking on home page (many blogs feature a blog post list on the home page or don't want links on the home page)"
+msgstr ""
+
+#: Models/Settings_Extension.php:864
+msgid "Enable autolinking in feeds?"
+msgstr ""
+
+#: Models/Settings_Extension.php:865
+msgid "By default Autolinker does not replace keywords in feeds due to it sometimes causing feed validation issues. This option turns it back on."
+msgstr ""
+
+#: Models/Settings_Extension.php:871
+msgid "Enable Autolinker on the following post types:"
+msgstr ""
+
+#: Models/Settings_Extension.php:872
+msgid "Enable the post types you want the Autolinker to work with. If no post types are selected, posts and pages will be enabled for you."
+msgstr ""
+
+#: Models/Settings_Extension.php:876
+#: Models/Settings_Extension.php:1406
+msgid "Select post types..."
+msgstr ""
+
+#: Models/Settings_Extension.php:880
+msgid "Clear the Autolinker cache?"
+msgstr ""
+
+#: Models/Settings_Extension.php:881
+msgid "The Autolinker add-on self manages it's own cache of links and keywords for performance reasons. It will update the cache upon saving a link with that link's new value, however if you are experiencing issues you can try clearing and rebuilding the cache manually."
+msgstr ""
+
+#: Models/Settings_Extension.php:883
+msgid "Clear & Rebuild Autolinker Cache"
+msgstr ""
+
+#: Models/Settings_Extension.php:910
+msgid "MaxMind Database"
+msgstr ""
+
+#: Models/Settings_Extension.php:914
+msgid "<strong>Use free MaxMind Country DB.</strong> <br>ThirstyAffiliates will source the latest freely provided MaxMind Country database and use this for IP address location checking."
+msgstr ""
+
+#: Models/Settings_Extension.php:915
+msgid "<strong>Use premium MaxMind Country DB.</strong> <br>If you have access to a premium MaxMind Country database file, you can upload it here and use this for IP address location checking."
+msgstr ""
+
+#: Models/Settings_Extension.php:916
+msgid "<strong>Use MaxMind Web Service.</strong> <br>If you have access to a MaxMin web service account, you can enter your API credentials here and use this for IP address location checking."
+msgstr ""
+
+#: Models/Settings_Extension.php:922
+msgid "Enable MaxMind DB Integration"
+msgstr ""
+
+#: Models/Settings_Extension.php:923
+msgid "a .mmdb file containing country details which will be used for the Maxmind DB integration."
+msgstr ""
+
+#: Models/Settings_Extension.php:930
+msgid "MaxMind Web Service User ID"
+msgstr ""
+
+#: Models/Settings_Extension.php:931
+msgid "User identifier to access Maxmind's API service."
+msgstr ""
+
+#: Models/Settings_Extension.php:937
+msgid "MaxMind Web Service API Key"
+msgstr ""
+
+#: Models/Settings_Extension.php:938
+msgid "Service key required to access Maxmind's API service."
+msgstr ""
+
+#: Models/Settings_Extension.php:944
+msgid "Disable Forwarding Proxy Test"
+msgstr ""
+
+#: Models/Settings_Extension.php:945
+msgid "Some hosts use a forwarding proxy to detect the client's IP address which is needed for geo detection, we automatically try to see if this is active, but some hosts have a funny setup where they show both IPs in the forwarding information. This setting disables the check altogether so you can get around this limitation."
+msgstr ""
+
+#: Models/Settings_Extension.php:974
+msgid "Tracking Script"
+msgstr ""
+
+#: Models/Settings_Extension.php:978
+msgid "<strong>Global Site Tag (gtag.js)</strong> <br> The Global Site Tag provides streamlined tagging across Google’s site measurement, conversion tracking, and remarketing products – giving you better control while making implementation easier. This is the newest variant of the Google Analytics tracking script."
+msgstr ""
+
+#: Models/Settings_Extension.php:979
+msgid "<strong>Universal Google Analytics</strong> <br>The most common Google Analytics tag, uses the function ga()."
+msgstr ""
+
+#: Models/Settings_Extension.php:980
+msgid "<strong>Legacy Google Analytics</strong> <br>Legacy support for the older style _gaq function."
+msgstr ""
+
+#: Models/Settings_Extension.php:981
+msgid "<strong>Google Tag Manager</strong> <br>For those using GTM please see these <a href=\"%s\">additional setup instructions</a>."
+msgstr ""
+
+#: Models/Settings_Extension.php:987
+msgid "Event action value"
+msgstr ""
+
+#: Models/Settings_Extension.php:988
+msgid "Value to set on the event action parameter of Google Analytics event tracking. Note: for uncloaked URLs, the value of event action will always be the full URL except for \"link text\" option."
+msgstr ""
+
+#: Models/Settings_Extension.php:991
+msgid "Link URI (full link value without the site address)"
+msgstr ""
+
+#: Models/Settings_Extension.php:992
+msgid "Full link URL"
+msgstr ""
+
+#: Models/Settings_Extension.php:993
+msgid "Link slug (last segment of URL)"
+msgstr ""
+
+#: Models/Settings_Extension.php:994
+msgid "Link text"
+msgstr ""
+
+#: Models/Settings_Extension.php:1000
+msgid "Custom event category name:"
+msgstr ""
+
+#: Models/Settings_Extension.php:1001
+msgid "Customize the event category name of the click tracking Event. (Default: \"Affiliate Link\")"
+msgstr ""
+
+#: Models/Settings_Extension.php:1006
+msgid "Custom Function Name (for universal GA):"
+msgstr ""
+
+#: Models/Settings_Extension.php:1007
+msgid "Enter the custom function name used for the Universal Google Analytics on your site. This only applies if your using other than <code>ga</code> or <code>__gaTracker</code>."
+msgstr ""
+
+#: Models/Settings_Extension.php:1035
+msgid "Days offset:"
+msgstr ""
+
+#: Models/Settings_Extension.php:1036
+msgid "days (interval to run the automatic 404 checker cron job.)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1044
+msgid "Hours offset:"
+msgstr ""
+
+#: Models/Settings_Extension.php:1045
+msgid "hours (interval to run the automatic 404 checker cron job.)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1053
+msgid "Run Automatic 404 Checker Manually"
+msgstr ""
+
+#: Models/Settings_Extension.php:1054
+msgid ""
+"This will trigger the automatic 404 checker scheduled cron job to run manually.\n"
+"                                     Once it runs, this process will be done on the background. Please note that only\n"
+"                                     one instance can be run at a time and it may take some time to finish."
+msgstr ""
+
+#: Models/Settings_Extension.php:1081
+msgid "<strong>Goo.gl</strong> <br>Shorten your affiliate links with Google's official ur shortener service."
+msgstr ""
+
+#: Models/Settings_Extension.php:1082
+msgid "<strong>Firebase Dynamic Links</strong> <br>Shorten your affiliate links with Google's new Firebase Dynamic Links."
+msgstr ""
+
+#: Models/Settings_Extension.php:1086
+msgid "<strong>Bitly</strong> <br>Shorten your affiliate links with Bitly service by entering your access token."
+msgstr ""
+
+#: Models/Settings_Extension.php:1087
+msgid "The Bitly integration is deprecated and will soon be removed."
+msgstr ""
+
+#: Models/Settings_Extension.php:1095
+msgid "URL Shortener Service"
+msgstr ""
+
+#: Models/Settings_Extension.php:1103
+msgid "Goo.gl API key:"
+msgstr ""
+
+#: Models/Settings_Extension.php:1104
+msgid "Please enter your goo.gl account API key."
+msgstr ""
+
+#: Models/Settings_Extension.php:1109
+msgid "Firebase Dynamic Links API key:"
+msgstr ""
+
+#: Models/Settings_Extension.php:1110
+msgid "Please enter your Firebase project API key."
+msgstr ""
+
+#: Models/Settings_Extension.php:1115
+msgid "Firebase Dynamic Link Domain:"
+msgstr ""
+
+#: Models/Settings_Extension.php:1116
+msgid "Please enter your Firebase dynamic link domain."
+msgstr ""
+
+#: Models/Settings_Extension.php:1121
+msgid "Generate Short URL on Affiliate Link Save?"
+msgstr ""
+
+#: Models/Settings_Extension.php:1122
+msgid "By default short urls are generated separately by clicking the \"Generate Short URL\" button on the edit affiliate link page. Checking this option will immediately generate a short URL for the destination URL when the affiliate link is saved."
+msgstr ""
+
+#: Models/Settings_Extension.php:1138
+msgid "Bitly Access Token:"
+msgstr ""
+
+#: Models/Settings_Extension.php:1139
+msgid "Please enter your Bitly account access token."
+msgstr ""
+
+#: Models/Settings_Extension.php:1165
+msgid "307 Temporary (alternative)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1173
+msgid "Before start redirect URL (global)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1174
+msgid "The value here will be used when the before start redirect URL field in the affiliate link is empty. (Defaults to the home URL)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1180
+msgid "Before start redirect type (global)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1181
+msgid "The redirect type to use when <em>before start redirect URL</em> is implemented."
+msgstr ""
+
+#: Models/Settings_Extension.php:1188
+msgid "Link expiration redirect URL (global)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1189
+msgid "The value here will be used when the after expire redirect URL field in the affiliate link is empty. (Defaults to the home URL)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1195
+msgid "Link expiration redirect type (global)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1196
+msgid "The redirect type to use when <em>after expire redirect URL</em> is implemented."
+msgstr ""
+
+#: Models/Settings_Extension.php:1229
+msgid "Admin Interfaces"
+msgstr ""
+
+#: Models/Settings_Extension.php:1231
+msgid "Control the capability required to view and manage certain ThirstyAffiliates features."
+msgstr ""
+
+#: Models/Settings_Extension.php:1235
+msgid "Affiliate Links (list)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1239
+msgid "Add/Edit Affiliate Link"
+msgstr ""
+
+#: Models/Settings_Extension.php:1247
+msgid "Link Categories"
+msgstr ""
+
+#: Models/Settings_Extension.php:1251
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:139
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:140
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:255
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:400
+msgid "Amazon Import"
+msgstr ""
+
+#: Models/Settings_Extension.php:1259
+msgid "Reports"
+msgstr ""
+
+#: Models/Settings_Extension.php:1266
+msgid "Report Interfaces"
+msgstr ""
+
+#: Models/Settings_Extension.php:1268
+msgid "Control the capability required to view ThirstyAffiliates reports."
+msgstr ""
+
+#: Models/Settings_Extension.php:1272
+msgid "Link Performance Report"
+msgstr ""
+
+#: Models/Settings_Extension.php:1276
+msgid "Geolocations Report"
+msgstr ""
+
+#: Models/Settings_Extension.php:1280
+msgid "Stats Report"
+msgstr ""
+
+#: Models/Settings_Extension.php:1284
+msgid "Keyword Report"
+msgstr ""
+
+#: Models/Settings_Extension.php:1295
+msgid "Setting Interfaces"
+msgstr ""
+
+#: Models/Settings_Extension.php:1297
+msgid "Control the capability required to view and manage each ThirstyAffiliates setting tab."
+msgstr ""
+
+#: Models/Settings_Extension.php:1301
+msgid "General Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1305
+msgid "Links Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1309
+msgid "Modules Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1313
+msgid "Amazon Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1317
+msgid "Autolinker Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1321
+msgid "Geolocation Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1325
+msgid "Click Tracking Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1329
+msgid "Automatic 404 Checker Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1333
+msgid "URL Shortener Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1337
+msgid "Link Scheduler Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1341
+msgid "Help Settings"
+msgstr ""
+
+#: Models/Settings_Extension.php:1342
+msgid "Menu item description"
+msgstr ""
+
+#: Models/Settings_Extension.php:1368
+msgid "Disclosure page"
+msgstr ""
+
+#: Models/Settings_Extension.php:1370
+msgid "The page which contains full information of your disclosure notice."
+msgstr ""
+
+#: Models/Settings_Extension.php:1376
+msgid "Disclosure notice link text"
+msgstr ""
+
+#: Models/Settings_Extension.php:1378
+msgid "The text to display for the link to the set disclosure page"
+msgstr ""
+
+#: Models/Settings_Extension.php:1383
+msgid "Display disclosure notice tooltip"
+msgstr ""
+
+#: Models/Settings_Extension.php:1385
+msgid "When checked, the plugin will add an icon next to all affiliate links in the site, which when hovered will display the disclosure notice message with a link to the disclosure notice page."
+msgstr ""
+
+#: Models/Settings_Extension.php:1389
+msgid "Disclosure notice message (tooltip)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1391
+msgid "The text to display on the tooltip. Add <code>{{disclosure_link}}</code> to display the link to the disclosure page."
+msgstr ""
+
+#: Models/Settings_Extension.php:1396
+msgid "Display disclosure notice at the bottom of article"
+msgstr ""
+
+#: Models/Settings_Extension.php:1398
+msgid "When checked, the plugin will add the disclosure notice text at the bottom of the post or page. This will only be added on the actual post/page and not on archive pages."
+msgstr ""
+
+#: Models/Settings_Extension.php:1402
+msgid "Display disclosure notice on the following post types"
+msgstr ""
+
+#: Models/Settings_Extension.php:1410
+msgid "Disclosure notice message (bottom of article)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1412
+msgid "The text to display on the disclosure notice at the bottom of post/page article. Add <code>{{disclosure_link}}</code> to display the link to the disclosure page."
+msgstr ""
+
+#: Models/Settings_Extension.php:1413
+msgid "<h4>AFFILIATE DISCLOSURE:</h4><p>This article may contain affiliate links. See our {{disclosure_link}} for more information.</p>"
+msgstr ""
+
+#: Models/Settings_Extension.php:1438
+msgid "Geolocation IP Address Debug"
+msgstr ""
+
+#: Models/Settings_Extension.php:1439
+msgid "Used for debugging the geolocation module by overriding the IP address detected in the server."
+msgstr ""
+
+#: Models/Settings_Extension.php:1463
+msgid "Record/recreate all existing links to .htaccess file"
+msgstr ""
+
+#: Models/Settings_Extension.php:1464
+msgid "Note: Because you are using the ThirstyAffiliates Htaccess Redirect add-on, links may appear cached in your browser. To test a link after you change the destination always use a Private Browsing/Incognito window to ensure a fresh browser session."
+msgstr ""
+
+#: Models/Settings_Extension.php:1484
+msgid "View Debug Log"
+msgstr ""
+
+#: Models/Settings_Extension.php:1485
+msgid "View debug logs description."
+msgstr ""
+
+#: Models/Settings_Extension.php:1509
+msgid "Fix all existing links in database and .htaccess file"
+msgstr ""
+
+#: Models/Settings_Extension.php:1510
+msgid "This feature will fix all ThirstyAffiliates links registered on the database and on the .htaccess file by replacing all instances of <code>&amp;amp;</code> to <code>&</code>."
+msgstr ""
+
+#: Models/Settings_Extension.php:1532
+msgid "The Autolinker module gives you the ability to automatically link keywords to affiliate links by defining a list for each affiliate link."
+msgstr ""
+
+#: Models/Settings_Extension.php:1539
+msgid "The Geolocation module adds functionality for geolocation targeting and various other country specific features."
+msgstr ""
+
+#: Models/Settings_Extension.php:1545
+msgid "CSV Import/Export"
+msgstr ""
+
+#: Models/Settings_Extension.php:1546
+msgid "Lets you bulk import affiliate links using a CSV spreadsheet. Handy for handling bulk link creation and for importing links from another link management plugin."
+msgstr ""
+
+#: Models/Settings_Extension.php:1552
+msgid "Google Click Tracking"
+msgstr ""
+
+#: Models/Settings_Extension.php:1553
+msgid "This module lets you track clicks by way of Google Analytics Events to affiliate links that are inserted."
+msgstr ""
+
+#: Models/Settings_Extension.php:1559
+msgid "Htaccess"
+msgstr ""
+
+#: Models/Settings_Extension.php:1560
+msgid "This module moves your affiliate link redirects from PHP based redirects to .htaccess server based redirects."
+msgstr ""
+
+#: Models/Settings_Extension.php:1567
+msgid "This module allows you to send notifications to your email whenever a set event has been completed.<br><br><b>Warning :</b> For this feature to work, the <b>Statistics</b> module needs to be turned on."
+msgstr ""
+
+#: Models/Settings_Extension.php:1574
+msgid "This module checks the status of all registered affiliate links regularly via cron, by pinging the destination URL and informs the admin by email if a URL is still working or dead."
+msgstr ""
+
+#: Models/Settings_Extension.php:1581
+msgid "This module allows you to shorten your affiliate link URLs by the most popular shortener services available."
+msgstr ""
+
+#: Models/Settings_Extension.php:1588
+msgid "This module allows you set the dates for your affiliate links to become active and/or expire."
+msgstr ""
+
+#: Models/Settings_Extension.php:1595
+msgid "This module allows you to set user roles/capability to gain access on the plugin's admin interfaces (Affiliate Links, Reports, Settings, etc.)"
+msgstr ""
+
+#: Models/Settings_Extension.php:1602
+msgid "This module allows you to add disclosure messages beside your affiliate links and/or at the bottom of every post that has affiliate links on it making light work of keeping your site compliant with FTC guidelines."
+msgstr ""
+
+#: Models/Settings_Extension.php:1671
+msgid "Link Category in URL?"
+msgstr ""
+
+#: Models/Settings_Extension.php:1675
+msgid "Custom Link Prefix"
+msgstr ""
+
+#: Models/Settings_Extension.php:1679
+msgid "Link Redirect Type"
+msgstr ""
+
+#: Models/Settings_Extension.php:1684
+msgid "Link Prefix"
+msgstr ""
+
+#: Models/Settings_Extension.php:1690
+msgid "You've recently changed the <strong>%s</strong> link appearance setting for ThirstyAffiliates while the htaccess module is turned on. We highly recommend that you regenerate your htaccess entries in the <strong>Help</strong> section."
+msgstr ""
+
+#: Models/Settings_Extension.php:1693
+msgid "Navigate to Help Settings and Recreate htaccess entries"
+msgstr ""
+
+#: Models/Settings_Extension.php:1764
+msgid "<strong>All existing links have now been fixed.</strong>"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:217
+msgid "Show Columns"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:220
+#: views/amazon/view-amazon-page.php:71
+#: views/amazon/view-amazon-page.php:83
+msgid "Price"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:221
+#: views/amazon/view-amazon-page.php:72
+#: views/amazon/view-amazon-page.php:84
+msgid "Item Stock"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:222
+#: views/amazon/view-amazon-page.php:73
+#: views/amazon/view-amazon-page.php:85
+msgid "Sales Rank"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:320
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:404
+msgid "Product search success"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:340
+msgid "You do not have an Amazon Associate Tag for the current country you are currently conducting a product search"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:471
+msgid "Response was invalid or empty"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:604
+msgid "Successfully saved amazon table columns"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:632
+msgid "Successfully saved last used search endpoint"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:690
+msgid "Successfully imported product as an affiliate link"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:720
+msgid "Successfully deleted imported link"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:755
+msgid "<b>Amazon Access Key ID</b>"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:758
+msgid "<b>Amazon Secret Key</b>"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:761
+msgid "<b>Amazon Associate Tags</b>"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:764
+msgid "Please <a href=\"%1$s\">input these required amazon credentials</a> in order to successfully query the Amazon Product Advertisement API:<br>%2$s"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon.php:791
+msgid "Please <a href=\"%1$s\">enter valid <b>Amazon Associate Tags</b></a>. Product search is disabled until this is resolved."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:120
+msgid "Successfully cleared search result cache"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:150
+msgid "Clear cache"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:191
+msgid "Failed to clear search result cache."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:256
+msgid "Settings for Amazon Product Advertisement API"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:282
+msgid "Amazon Access Key ID"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:283
+msgid "<a href=\"%1$s\" target=\"_blank\">How To Get My Access Key ID?</a>"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:288
+msgid "Amazon Secret Key"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:289
+msgid "<a href=\"%1$s\" target=\"_blank\">How To Get My Secret Key?</a>"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:295
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:304
+msgid "Amazon Associate Tag"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:296
+msgid ""
+"<p style=\"font-weight: normal;\"><a href=\"%1$s\" target=\"_blank\">How To Get My Amazon_Settings Associate Tag?</a><br><br>\n"
+"                                                Enter your Amazon associate tag per country you are registered. Note that you will only be able to search on the countries you are registered.<br>\n"
+"                                                Enter the two letter <b>Country Code</b> as the <b>Key</b> and your <b>Amazon Associate Tag</b> for that country as the <b>Value</b>. Currently supported countries are:<br><br>\n"
+"                                                <em>United States <b>(US)</b>, Canada <b>(CA)</b>, United Kingdom <b>(UK)</b>, Australia <b>(AU)</b>, Brazil <b>(BR)</b>, France <b>(FR)</b>, Germany <b>(DE)</b>, India <b>(IN)</b>, Italy <b>(IT)</b>, Japan <b>(JP)</b>, Mexico <b>(MX)</b>, Netherlands <b>(NL)</b>, Poland <b>(PL)</b>, Saudi Arabia <b>(SA)</b>, Singapore <b>(SG)</b>, Spain <b>(ES)</b>, Sweden <b>(SE)</b>, Turkey <b>(TR)</b> and United Arab Emirates <b>(AE)</b></p>"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:310
+msgid "Hide Empty Priced Products"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:311
+msgid "Empty priced products are products with price of zero or products which have no price set."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:316
+msgid "Import Images"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:317
+msgid "Quick importing will automatically import the checked images. Normal import will have these images checked by default."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:327
+msgid "Imported Link Categories"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:328
+msgid "Add imported links to these categories."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:334
+msgid "Enable Geolocation Integration"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:335
+msgid "If associates tags are provided for alternate Amazon store locales, this option will import links the product on those other stores as Geolocation URLs per supported country."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:340
+msgid "Search Result Caching"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:341
+msgid "<p style=\"font-weight: normal;\">Cache searches performed by the Amazon importer to improve performance for repeated searches.</p>"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:346
+msgid "Enable Search Result Caching"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:347
+msgid "If enabled, amazon module will save the search results in a cache, so if you search the same thing later, the cached data will be used instead for faster query."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:352
+msgid "Cache Lifespan"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:353
+msgid "In days, defaults to 7 days."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:361
+msgid "Cache lifespan option must be a number greater than or equal 1"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:377
+msgid "Clear Cache"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:378
+msgid "Clear amazon api search result cache"
+msgstr ""
+
+#: Models/Third_Party_Integrations/Amazon/Amazon_Settings.php:401
+msgid "The Amazon Importer module lets you create affiliate links to Amazon products by searching and importing them into ThirstyAffiliates."
+msgstr ""
+
+#: Models/Third_Party_Integrations/Google/Google_Click_Tracking.php:160
+#: views/link-health-checker/link-health-report.php:30
+msgid "Affiliate Link"
+msgstr ""
+
+#: Models/URL_Shortener.php:116
+msgid "The required goo.gl api key is missing."
+msgstr ""
+
+#: Models/URL_Shortener.php:119
+#: Models/URL_Shortener.php:159
+#: Models/URL_Shortener.php:187
+msgid "The provided URL to shorten is not valid."
+msgstr ""
+
+#: Models/URL_Shortener.php:137
+msgid "There was an error on trying to shorten the provided URL. Make sure that the inputted API key and/or URL is valid."
+msgstr ""
+
+#: Models/URL_Shortener.php:156
+msgid "The required bitly access token is missing."
+msgstr ""
+
+#: Models/URL_Shortener.php:164
+msgid "There was an error on trying to shorten the provided URL. Make sure that the inputted access token and/or URL is valid."
+msgstr ""
+
+#: Models/URL_Shortener.php:184
+msgid "The required Firebase API key is missing."
+msgstr ""
+
+#: Models/URL_Shortener.php:208
+msgid "There was an error trying to generate the short URL. Please try again."
+msgstr ""
+
+#: Models/URL_Shortener.php:265
+msgid "The affiliate link must be on \"publish\" status before shortening URL."
+msgstr ""
+
+#: Models/URL_Shortener.php:358
+msgid "Shortened URL"
+msgstr ""
+
+#: Models/URL_Shortener.php:386
+msgid "Regenerate"
+msgstr ""
+
+#: Models/URL_Shortener.php:386
+msgid "Generate"
+msgstr ""
+
+#: thirstyaffiliates-pro.php:254
+msgid "Activate this plugin"
+msgstr ""
+
+#: thirstyaffiliates-pro.php:254
+msgid "Click here to activate &rarr;"
+msgstr ""
+
+#: thirstyaffiliates-pro.php:256
+msgid "Install this plugin"
+msgstr ""
+
+#: thirstyaffiliates-pro.php:256
+msgid "Click here to install from WordPress.org repo &rarr;"
+msgstr ""
+
+#: thirstyaffiliates-pro.php:258
+msgid "<br/>Please ensure you have the <a href=\"%1$s\" target=\"_blank\">%2$s</a> plugin installed and activated.<br/>"
+msgstr ""
+
+#: thirstyaffiliates-pro.php:265
+msgid "<b>ThirstyAffiliates Pro</b> plugin missing dependency.<br/>"
+msgstr ""
+
+#: thirstyaffiliates-pro.php:284
+msgid "<a href=\"%1$s\">Click here to update ThirstyAffiliates &rarr;</a>"
+msgstr ""
+
+#: thirstyaffiliates-pro.php:287
+msgid "Please ensure you have the latest version of <a href=\"%1$s\" target=\"_blank\">ThirstyAffiliates</a> plugin installed and activated."
+msgstr ""
+
+#: views/amazon/view-amazon-page.php:5
+msgid "Import Affiliate Links From Amazon"
+msgstr ""
+
+#: views/amazon/view-amazon-page.php:11
+msgid "Search Amazon For Products"
+msgstr ""
+
+#: views/amazon/view-amazon-page.php:20
+msgid "Search For..."
+msgstr ""
+
+#: views/amazon/view-amazon-page.php:40
+msgid "Search"
+msgstr ""
+
+#: views/amazon/view-amazon-page.php:54
+msgid "1-Click Import Link"
+msgstr ""
+
+#: views/amazon/view-amazon-page.php:69
+#: views/amazon/view-amazon-page.php:81
+msgid "Image"
+msgstr ""
+
+#: views/amazon/view-amazon-page.php:70
+#: views/amazon/view-amazon-page.php:82
+msgid "Title"
+msgstr ""
+
+#: views/csv-importer/view-csv-exporter.php:3
+msgid "STEP 1 - Export your links:"
+msgstr ""
+
+#: views/csv-importer/view-csv-exporter.php:6
+msgid "This tool lets you export a properly formatted CSV file containing a list of all the affiliate links on this website. This CSV file will be compatible with the ThirstyAffiliates CSV Importer."
+msgstr ""
+
+#: views/csv-importer/view-csv-exporter.php:10
+msgid "You can choose to only export the links from a specific category."
+msgstr ""
+
+#: views/csv-importer/view-csv-exporter.php:16
+msgid "Before you can upload your export file, you will need to fix the following error:"
+msgstr ""
+
+#: views/csv-importer/view-csv-exporter.php:26
+msgid "Category to export from:"
+msgstr ""
+
+#: views/csv-importer/view-csv-exporter.php:29
+msgid "-- All Categories --"
+msgstr ""
+
+#: views/csv-importer/view-csv-exporter.php:37
+msgid "Export affiliate links"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:3
+msgid "STEP 1 - select your CSV file:"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:6
+msgid "This tool lets you upload a properly formatted CSV file containing a list of affiliate links. These links will be bulk imported for you directly into ThirstyAffiliates."
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:10
+msgid "Any categories you specify in your import file that are not found in the system will be created as the links are imported"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:16
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:25
+msgid "Import from CSV"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:29
+msgid "Maximum file size: %s"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:35
+msgid "Select a CSV file (comma delimited .csv)"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:42
+msgid "Override already existing links with the same slug?"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:49
+msgid "Skip escaping of URLs?"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:55
+msgid "Upload file and import"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:91
+msgid "Download Example CSV"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:94
+msgid "We have provided a demo CSV file that you can use as a template for formatting your CSV appropriately."
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:97
+msgid "<a class=\"button-secondary\" href=\"%s\">Download Sample CSV</a>"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:100
+msgid "All columns are optional except for the first two (name & destination URL). If the destination URL is not valid, that row will be skipped."
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:103
+msgid "Geolocations URLs and Autolinker keywords will be imported, but will not be active if you do not have those modules enabled."
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:108
+msgid "Importing Country Specific URLs"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:111
+msgid "Please use the two digit country code for your countries as found in the following XML file:"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:114
+msgid "<a class=\"button-secondary\" href=\"%s\" target=\"_blank\">Example country codes</a>"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:120
+msgid "Importing Autolink Keywords"
+msgstr ""
+
+#: views/csv-importer/view-csv-importer.php:122
+msgid "To import autolink keywords please provide a semi-colon delimited list (eg. Keyword One;Keyword Two)."
+msgstr ""
+
+#: views/csv-importer/view-redirector.php:9
+msgid "<a href=\"%s\">Click here</a> if you still see this page after 5 seconds."
+msgstr ""
+
+#: views/event-notification/add-event-notification-fields.php:5
+#: views/event-notification/edit-event-notification-fields.php:6
+msgid "Name:"
+msgstr ""
+
+#: views/event-notification/add-event-notification-fields.php:8
+#: views/event-notification/edit-event-notification-fields.php:11
+msgid "Give your event notification a name for internal reference."
+msgstr ""
+
+#: views/event-notification/add-event-notification-fields.php:13
+#: views/event-notification/edit-event-notification-fields.php:18
+msgid "Recipient Email:"
+msgstr ""
+
+#: views/event-notification/add-event-notification-fields.php:20
+#: views/event-notification/edit-event-notification-fields.php:29
+msgid "Notification Type:"
+msgstr ""
+
+#: views/event-notification/add-event-notification-fields.php:34
+#: views/event-notification/edit-event-notification-fields.php:47
+msgid "Trigger Value:"
+msgstr ""
+
+#. translators: %s: the license key
+#: views/license/active_legacy_license.php:7
+msgid "License activated with key %s"
+msgstr ""
+
+#: views/license/active_legacy_license.php:14
+#: views/license/active_license.php:59
+msgid "Deactivate License Key on %s"
+msgstr ""
+
+#. translators: %1$s: the license edition, %2$s: the installed edition, %3$s: open link tag, %4$s: close link tag
+#: views/license/active_license.php:12
+msgid "This License Key is for %1$s, but %2$s is installed. %3$sClick here%4$s to install the correct edition for the license (%1$s)."
+msgstr ""
+
+#: views/license/active_license.php:27
+#: views/link-health-checker/link-health-report.php:32
+msgid "Status"
+msgstr ""
+
+#: views/license/active_license.php:29
+msgid "Active on %s"
+msgstr ""
+
+#: views/license/active_license.php:33
+#: views/license/inactive_license.php:14
+msgid "License Key"
+msgstr ""
+
+#: views/license/active_license.php:38
+msgid "Product"
+msgstr ""
+
+#: views/license/active_license.php:42
+msgid "Activations"
+msgstr ""
+
+#. translators: %1$s: open strong tag, %2$d: activation count, %3$s: max activations, %4$s: close strong tag
+#: views/license/active_license.php:47
+msgid "%1$s%2$d of %3$s%4$s sites have been activated with this license key"
+msgstr ""
+
+#: views/license/active_license.php:67
+msgid "Edge Updates"
+msgstr ""
+
+#: views/license/active_license.php:71
+msgid "Include ThirstyAffiliates Pro edge (development) releases in automatic updates (not recommended on production sites)"
+msgstr ""
+
+#: views/license/inactive_license.php:6
+msgid "Activation Email"
+msgstr ""
+
+#: views/license/inactive_license.php:18
+msgid "Activate License Key"
+msgstr ""
+
+#: views/link-health-checker/link-health-checker-email-report.php:3
+msgid "ThirstyAffiliates Automatic 404 Checker"
+msgstr ""
+
+#: views/link-health-checker/link-health-checker-email-report.php:5
+msgid "The scheduled link 404 check has been completed. Below are the results counter:"
+msgstr ""
+
+#: views/link-health-checker/link-health-checker-email-report.php:8
+msgid "Okay:"
+msgstr ""
+
+#: views/link-health-checker/link-health-checker-email-report.php:9
+msgid "Warning:"
+msgstr ""
+
+#: views/link-health-checker/link-health-checker-email-report.php:10
+msgid "Error:"
+msgstr ""
+
+#: views/link-health-checker/link-health-checker-email-report.php:15
+msgid "Some issues were detected on your affiliate links. <a href=\"%s\">Click here to view a more detailed report"
+msgstr ""
+
+#: views/link-health-checker/link-health-report.php:8
+msgid "Bulk actions"
+msgstr ""
+
+#: views/link-health-checker/link-health-report.php:18
+msgid "Filter:"
+msgstr ""
+
+#: views/link-health-checker/link-health-report.php:31
+msgid "Destination"
+msgstr ""
+
+#: views/link-health-checker/link-health-report.php:33
+msgid "Last Checked"
+msgstr ""
+
+#: views/link-health-checker/link-health-report.php:34
+msgid "Issue"
+msgstr ""
+
+#: views/link-health-checker/link-health-report.php:35
+msgid "Actions"
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:5
+msgid "Enter a list of keywords you wish to automatically link with this affiliate link (case-insensitive)"
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:9
+msgid "Note: Place your keywords in order of precedence. eg. If \"web design\" is mentioned first and \"web design course\" second, it will link \"web design\" as first preference. Also, please type your entries rather than copy/pasting from the front end of your site. This will eliminate weird character encoding issues, especially relating to apostrophes."
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:15
+msgid "Limit (per keyword):"
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:16
+msgid "How many links per keyword should the autolinker place before stopping? Set value to 0 to follow the global value. Set value to -1 to disable keyword limit for this affiliate link."
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:24
+#: views/metaboxes/view-autolinker-post-metabox.php:21
+msgid "Enabled auto linking inside headings?"
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:25
+#: views/metaboxes/view-autolinker-post-metabox.php:22
+msgid "Should the autolinker add links to matches inside heading tags? eg. &#0139;h1&#0155;, &#0139;h2&#0155;, &#0139;h3&#0155;, etc. Note this only links if the heading is part of the actual content, not the post/page title."
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:28
+#: views/metaboxes/view-autolink-keywords-metabox.php:40
+#: views/metaboxes/view-autolinker-post-metabox.php:25
+#: views/metaboxes/view-autolinker-post-metabox.php:37
+msgid "Global (%s)"
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:30
+#: views/metaboxes/view-autolink-keywords-metabox.php:42
+#: views/metaboxes/view-autolinker-post-metabox.php:27
+#: views/metaboxes/view-autolinker-post-metabox.php:39
+msgid "No"
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:36
+#: views/metaboxes/view-autolinker-post-metabox.php:33
+msgid "Random Placement?:"
+msgstr ""
+
+#: views/metaboxes/view-autolink-keywords-metabox.php:37
+#: views/metaboxes/view-autolinker-post-metabox.php:34
+msgid "Whether to pick random instances of matching keywords in the content to link or to link keywords sequentially as it finds them."
+msgstr ""
+
+#: views/metaboxes/view-autolinker-post-metabox.php:8
+#: views/metaboxes/view-disable-autolinker-metabox.php:13
+msgid "Disable autolinker for this post?"
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:3
+msgid "Enter your geolocation URLs, these will override the destination URL above for visitors from these countries:"
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:7
+msgid "Select countries"
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:14
+#: views/metaboxes/view-geolocation-urls-metabox.php:32
+msgid "Destination URL"
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:19
+#: views/metaboxes/view-geolocation-urls-metabox.php:21
+msgid "Add Geolink"
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:20
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:23
+msgid "Save"
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:31
+msgid "Countries"
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:55
+msgid "No geolocation links recorded."
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:84
+msgid "Please select one or more countries."
+msgstr ""
+
+#: views/metaboxes/view-geolocation-urls-metabox.php:89
+msgid "Please enter a valid URL for the destination field."
+msgstr ""
+
+#: views/metaboxes/view-link-health-metabox.php:6
+msgid "Status:"
+msgstr ""
+
+#: views/metaboxes/view-link-health-metabox.php:11
+#: views/metaboxes/view-link-health-metabox.php:15
+msgid "Check Health"
+msgstr ""
+
+#: views/metaboxes/view-link-health-metabox.php:12
+msgid "Checking..."
+msgstr ""
+
+#: views/metaboxes/view-link-scheduler-metabox.php:5
+msgid "Start date:"
+msgstr ""
+
+#: views/metaboxes/view-link-scheduler-metabox.php:13
+msgid "Before start redirect URL:"
+msgstr ""
+
+#: views/metaboxes/view-link-scheduler-metabox.php:20
+msgid "Expire date:"
+msgstr ""
+
+#: views/metaboxes/view-link-scheduler-metabox.php:28
+msgid "Link expiration redirect URL:"
+msgstr ""
+
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:6
+msgid "IP address"
+msgstr ""
+
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:11
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:45
+msgid "HTTP Referrer"
+msgstr ""
+
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:16
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:46
+#: views/reports/keyword-report.php:62
+msgid "Keyword"
+msgstr ""
+
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:43
+msgid "Cloaked URL with code"
+msgstr ""
+
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:44
+msgid "IP Address"
+msgstr ""
+
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:108
+msgid "HTTP Referrer field needs to be a valid URL"
+msgstr ""
+
+#: views/metaboxes/view-preset-click-data-parameters-metabox.php:114
+msgid "The set IP address is not valid."
+msgstr ""
+
+#: views/metaboxes/view-url-shortener-field.php:21
+msgid "Success!"
+msgstr ""
+
+#: views/metaboxes/view-url-shortener-field.php:24
+msgid "The cloaked url value has been changed. You'll be able to generate the short URL after saving the affiliate link."
+msgstr ""
+
+#: views/reports/add-category-legend.php:4
+msgid "Fetch report for category:"
+msgstr ""
+
+#: views/reports/add-category-legend.php:10
+msgid "Select category"
+msgstr ""
+
+#: views/reports/add-category-legend.php:11
+msgid "General (All links)"
+msgstr ""
+
+#: views/reports/add-category-legend.php:20
+msgid "Fetch Report"
+msgstr ""
+
+#: views/reports/geolocation-reports.php:15
+#: views/reports/keyword-report.php:15
+#: views/reports/stats-table-report.php:15
+msgid "Custom"
+msgstr ""
+
+#: views/reports/geolocation-reports.php:24
+#: views/reports/keyword-report.php:24
+#: views/reports/stats-table-report.php:24
+msgid "Go"
+msgstr ""
+
+#: views/reports/keyword-report.php:37
+msgid "Search and select affiliate links..."
+msgstr ""
+
+#: views/reports/keyword-report.php:40
+msgid "Select categories..."
+msgstr ""
+
+#: views/reports/keyword-report.php:47
+#: views/reports/stats-table-report.php:65
+msgid "Filter"
+msgstr ""
+
+#: views/reports/keyword-report.php:63
+msgid "Total Clicks"
+msgstr ""
+
+#: views/reports/keyword-report.php:64
+msgid "Affiliate Links"
+msgstr ""
+
+#: views/reports/load-link-performance-report.php:6
+msgid "Report to load:"
+msgstr ""
+
+#: views/reports/load-link-performance-report.php:8
+msgid "Select report"
+msgstr ""
+
+#: views/reports/load-link-performance-report.php:9
+msgid "Best Performance"
+msgstr ""
+
+#: views/reports/load-link-performance-report.php:17
+msgid "Category:"
+msgstr ""
+
+#: views/reports/load-link-performance-report.php:19
+msgid "No Category"
+msgstr ""
+
+#: views/reports/load-link-performance-report.php:27
+msgid "Load Report"
+msgstr ""
+
+#: views/reports/quick-stats-summary-column.php:5
+msgid "Total clicks: <strong>%s</strong>"
+msgstr ""
+
+#: views/reports/quick-stats-summary-column.php:8
+msgid "Last 7 days: <strong>%s</strong>"
+msgstr ""
+
+#: views/reports/quick-stats-summary-column.php:11
+msgid "Last 30 days: <strong>%s</strong>"
+msgstr ""
+
+#: views/reports/report-actions.php:5
+msgid "Report actions"
+msgstr ""
+
+#: views/reports/report-actions.php:8
+msgid "Select action"
+msgstr ""
+
+#: views/reports/save-link-performance-report.php:7
+msgid "Enter report name..."
+msgstr ""
+
+#: views/reports/save-link-performance-report.php:11
+msgid "Save Report"
+msgstr ""
+
+#: views/reports/stats-table-report.php:43
+msgid "Show"
+msgstr ""
+
+#: views/reports/stats-table-report.php:50
+msgid "entries"
+msgstr ""
+
+#: views/reports/stats-table-report.php:54
+msgid "Search..."
+msgstr ""
+
+#: views/reports/stats-table-report.php:58
+msgid "-- No Category Filter --"
+msgstr ""
+
+#: views/reports/stats-table-report.php:81
+msgid "Visitor IP"
+msgstr ""
+
+#: views/reports/stats-table-report.php:82
+msgid "Date"
+msgstr ""
+
+#: views/reports/stats-table-report.php:83
+msgid "Country"
+msgstr ""
+
+#: views/reports/stats-table-report.php:84
+msgid "Link"
+msgstr ""
+
+#: views/reports/stats-table-report.php:85
+msgid "Page Referrer"
+msgstr ""
+
+#: views/reports/stats-table-report.php:86
+msgid "Cloaked URL"
+msgstr ""
+
+#: views/reports/stats-table-report.php:87
+msgid "Redirect URL"
+msgstr ""
+
+#: views/reports/stats-table-report.php:88
+msgid "Redirect Type"
+msgstr ""
+
+#: views/reports/stats-table-report.php:90
+msgid "Browser/Device"
+msgstr ""

@@ -1,0 +1,36 @@
+#wpbody-content {
+
+    .term-name-wrap,
+    .term-slug-wrap,
+    .term-parent-wrap,
+    .term-description-wrap {
+        display: none;
+    }
+
+    .event-nofication-type-wrap {
+
+        .radio-list {
+            margin: 5px 0 5px 10px;
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .event-notification-trigger-value-wrap {
+
+        input {
+            max-width: 100px;
+        }
+    }
+
+    p.field-error {
+        width: calc( 95% - 10px );
+        margin: 0 1px;
+        padding: 3px 5px;
+        background: #dc3232;
+        color: #fff;
+    }
+}
